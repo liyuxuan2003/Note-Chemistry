@@ -2202,130 +2202,57 @@
         }{新戊烷}
     \end{center}
 
+\newpage
+
+    烷烃的系统命名法：\\[4mm]
+    1.主链的选择\\[3mm]
+    命名烷烃时需要选择一条碳链作为主链，其他的支链视为主链的取代基。\\[3mm]
+    首先考虑主链的碳原子数量，最长的一条作为主链。\\[3mm]
+    其次考虑主链上侧链的数量，最多的一条作为主链。\\[6mm]
+    2.主链的编号\\[3mm]
+    命名烷烃时需要对选定的主链进行编号，便于后续标记支链的位置。\\[3mm]
+    主链的编号依据最低系列原则，选取编号方式中使得取代基的位号序列字典序最小的一种。\\[6mm]
+    3.主链的命名\\[3mm]
+    设主链的碳原子数量为X，将主链命名为：
+    \begin{large}
+        \begin{center}
+            X烷~~~~~~~~X$\in\big\{\text{甲},\text{乙},\text{丙},\text{丁},\cdots\big\}$
+        \end{center}
+    \end{large}\vspace{10pt}
+    4.侧链的命名\\[3mm]
+    设侧链的数量为N，设侧链的位号位$a_1\sim a_n$，将侧链命名为：\vspace{2pt}
+    \begin{large}
+        \begin{center}
+            $a_1,a_2,a_n$\,-\,N取代基~~~~~~~~N$\in\big\{\text{一},\text{二},\text{三},\text{四},\cdots\big\}$~~~~~~~~$a_1\sim a_n\in\big\{1,2,3,4,\cdots\big\}$
+        \end{center}
+    \end{large}\vspace{15pt}
+    5.完成命名\\[3mm]
+    将侧链按照简单到复杂的顺序依次用减号连接，添加在主链前：
+    \begin{large}
+        \begin{center}
+            [侧链$1$]\,-\,[侧链$2$]\,-\,[侧链Y][主链]
+        \end{center}
+    \end{large}\vspace{25pt}
+    以下列出了部分使用系统命名法的烷烃：\vspace{5pt}
+    \begin{center}
+        \setchemfig{atom sep=15pt}
+        \setchemfig{fixed length=true}
+        \chemname[15pt]
+        {
+            \chemfig
+            {
+                CH_3-CH(-[6]CH_3)-CH_2-CH(-[6]CH_3-[6]CH_3)-CH_3
+            }
+        }{2,4-二甲基己烷}\qquad\quad
+        \chemname[15pt]
+        {
+            \chemfig
+            {
+                CH_3-CH_2-CH(-[6]CH_3)-CH_2-CH(-[6]CH_2-[6]CH_3)-CH(-[6]CH_3)-CH_3
+            }
+        }{2,5-二甲基-3-乙基庚烷}
+    \end{center}
+    
+
+
 \end{document}
-
-% \section{烷}
-%     烷指的是一类碳原子间均以碳碳单键结合的碳氢化合物。
-
-% \subsection{甲烷}
-%     甲烷的分子式是\ce{CH4}，其结构式为：\vspace{3pt}
-%     \begin{center}
-%         \setchemfig{atom sep=25pt}
-%         \chemname[15pt]
-%         {
-%             \chemfig
-%             {
-%                 C(-[0]H)(-[2]H)(-[4]H)(-[6]H)
-%             }
-%         }{甲烷}
-%     \end{center}\vspace{10pt}
-%     甲烷的取代反应：\vspace{5pt}
-%     \begin{center}
-%         \setchemfig{atom sep=25pt}
-%         \schemestart
-%             \chemfig{C(-[0]H)(-[2]H)(-[4]H)(-[6]H)}
-%             \+{12pt,10pt,1pt}
-%             \ce{Cl2}
-%             ~~~~\arrow(foo.mid east--bar.mid west){->[光照]}~~~~
-%             \chemname[15pt]{\chemfig{C(-[0]Cl)(-[2]H)(-[4]H)(-[6]H)}}{一氯甲烷}
-%             \+{12pt,10pt,1pt}
-%             \ce{HCl}
-%         \schemestop
-
-%         \vspace{20pt}
-
-%         \schemestart
-%         \chemfig{C(-[0]Cl)(-[2]H)(-[4]H)(-[6]H)}
-%         \+{12pt,10pt,1pt}
-%         \ce{Cl2}
-%         ~~~~\arrow(foo.mid east--bar.mid west){->[光照]}~~~~
-%         \chemname[15pt]{\chemfig{C(-[0]Cl)(-[2]H)(-[4]H)(-[6]Cl)}}{二氯甲烷}
-%         \+{12pt,10pt,1pt}
-%         \ce{HCl}
-%         \schemestop
-
-%         \vspace{20pt}
-
-%         \schemestart
-%         \chemfig{C(-[0]Cl)(-[2]H)(-[4]H)(-[6]Cl)}
-%         \+{12pt,10pt,1pt}
-%         \ce{Cl2}
-%         ~~~~\arrow(foo.mid east--bar.mid west){->[光照]}~~~~
-%         \chemname[15pt]{\chemfig{C(-[0]Cl)(-[2]Cl)(-[4]H)(-[6]Cl)}}{三氯甲烷}
-%         \+{12pt,10pt,1pt}
-%         \ce{HCl}
-%         \schemestop
-
-%         \vspace{20pt}
-
-%         \schemestart
-%         \chemfig{C(-[0]Cl)(-[2]Cl)(-[4]H)(-[6]Cl)}
-%         \+{12pt,10pt,1pt}
-%         \ce{Cl2}
-%         ~~~~\arrow(foo.mid east--bar.mid west){->[光照]}~~~~
-%         \chemname[15pt]{\chemfig{C(-[0]Cl)(-[2]Cl)(-[4]Cl)(-[6]Cl)}}{四氯甲烷}
-%         \+{12pt,10pt,1pt}
-%         \ce{HCl}
-%         \schemestop
-%     \end{center}
-
-% \newpage
-
-%     甲烷的氧化反应：
-%     \begin{center}
-%         \ce{CH4 + 2O2 ->T[点燃] CO2 + 2H2O}\\[3mm]
-%     \end{center}
-%     甲烷在空气中燃烧时，其火焰颜色为淡蓝色。\\[10mm]
-%     甲烷的实验室制法：
-%     \begin{center}
-%         \ce{CH3COONa + NaOH ->T[\ce{CaO}][加热] Na2CO3 + CH4 ^}\\[3mm]
-%     \end{center}
-%     无水醋酸钠和碱石灰混合加热可以制取\ce{CH4}气体。\\
-
-% \subsection{烷烃}
-%     烷烃指的是碳原子间均以碳碳单键结合的链状碳氢化合物称为。\\[3mm]
-%     烷烃的化学通式为\ce{C_{n}H_{2n+2}}。\\[5mm]
-%     以下列出了部分烷烃的结构式：\vspace{10pt}
-%     \begin{center}
-%         \setchemfig{atom sep=25pt}
-%         \chemname[15pt]
-%         {
-%             \chemfig
-%             {
-%                 C(-[0]H)(-[2]H)(-[4]H)(-[6]H)
-%             }
-%         }{甲烷}\qquad
-%         \chemname[15pt]
-%         {
-%             \chemfig
-%             {
-%                 C(-[2]H)(-[4]H)(-[6]H)-C(-[2]H)(-[0]H)(-[6]H)
-%             }
-%         }{乙烷}\qquad
-%         \chemname[15pt]
-%         {
-%             \chemfig
-%             {
-%                 C(-[2]H)(-[4]H)(-[6]H)-C(-[2]H)(-[6]H)-C(-[2]H)(-[0]H)(-[6]H)
-%             }
-%         }{丙烷}\\[10mm]
-%         \chemname[15pt]
-%         {
-%             \chemfig
-%             {
-%                 C(-[2]H)(-[4]H)(-[6]H)
-%                 -C(-[2]H)(-[6]H)
-%                 -C(-[2]H)(-[6]H)
-%                 -C(-[2]H)(-[0]H)(-[6]H)
-%             }
-%         }{正丁烷}\qquad
-%         \chemname[15pt]
-%         {
-%             \chemfig
-%             {
-%                 C(-[2]H)(-[4]H)(-[6]H)
-%                 -C(-[2]H)(-[6,2.0]C(-[0]H)(-[4]H)(-[6]H))
-%                 -C(-[2]H)(-[0]H)(-[6]H)
-%             }
-%         }{异丁烷}
-%     \end{center}
