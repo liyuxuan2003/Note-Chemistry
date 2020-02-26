@@ -1985,7 +1985,7 @@
 
 \subsection{有机物}
     我们将含有碳元素的化合物称为有机物，研究有机物的化学称为有机化学。\\[3mm]
-    由于一些历史原因，碳酸盐，碳氧化物，氰化物，这些物质虽然含碳但仍然被归入无机物。\\
+    由于一些历史原因，碳酸盐，碳氧化物，氰化物，这些物质虽然含碳但仍然被归入无机物。\vspace{3pt}
 
 \subsubsection{有机物的突破}
     在1800年以前，科学家已经可以从天然的动植物中分离提纯某些有机物，其中大多数用于医药，
@@ -1995,23 +1995,24 @@
     意外的发现制取的白色晶体，并不是无机物氰酸铵，而是有机物尿素。\\[3mm]
     在加热条件下氰酸铵分子结构发生重排，由氰酸铵变为了尿素：\vspace{5pt}
     \begin{center}
+        \chemnameinit{\chemfig{NH_4CNO}}
         \setchemfig{atom sep=15pt}
         \setchemfig{fixed length=true}
         \setchemfig{arrow coeff=0.8}
         
         \schemestart
-            \chemname[15pt]{\chemfig{NH_4CNO}}{氰酸铵}
+            \chemname[8pt]{\chemfig{NH_4CNO}}{氰酸铵}
             ~~~~\arrow(foo.mid east--bar.mid west){->[\footnotesize 加热]}~~~~
-            \chemname[15pt]{\chemfig{C(-[0]NH_2)(-[4]NH_2)(=[2]O)}}{尿素}
+            \chemname[8pt]{\chemfig{C(-[0]NH_2)(-[4]NH_2)(=[2]O)}}{尿素}
         \schemestop
     \end{center}\vspace{10pt}
     维勒的实验第一次通过人工方法，由无机物制取有机物。\\[3mm]
-    维勒的实验强烈的震撼了生命力说，突破了无机物和有机物的鸿沟。\\
+    维勒的实验强烈的震撼了生命力说，突破了无机物和有机物的鸿沟。\vspace{3pt}
 
 \subsubsection{有机物的特点}
     有机物中的碳是一种非常特别的元素，碳碳键在碳氢化合物中可以稳定的存在，形成分子骨架。\\[3mm]
     有机物中的碳氢化合物在部分的替换为其他的非金属元素后，仍然能保持稳定的分子骨架。\\[6mm]
-    下表列出了有机物中各个元素化合价：
+    下表列出了有机物中各个元素化合价：\vspace{5pt}
     \begin{table}[h]
         \begin{center}
             \begin{tabular}{l|l|l}
@@ -2024,19 +2025,21 @@
             \end{tabular}
             \caption{有机物中各个元素的化合价}
         \end{center}
-    \end{table}
+    \end{table}\\
+    除此之外，卤族元素在有机物中表现为$+1$价。
 
 \newpage
 
 \subsection{烷}
-    烷指的是一类碳原子间均以碳碳单键结合的碳氢化合物。
+    烷指的是一类碳原子间均为碳碳单键的碳氢化合物。
 
 \subsubsection{甲烷}
     甲烷（\ce{CH4}）是最简单的烷烃，结构式为：\vspace{5pt}
     \begin{center}
+        \chemnameinit{\chemfig{C(-[0]H)(-[2]H)(-[4]H)(-[6]H)}}
         \setchemfig{atom sep=15pt}
         \setchemfig{fixed length=true}
-        \chemname[15pt]
+        \chemname[5pt]
         {
             \chemfig
             {
@@ -2055,6 +2058,7 @@
     有机物的取代反应：有机物分子中的某些原子团被其他原子团替代的反应。\\[3mm]
     甲烷可以和氯气发生取代反应：\vspace{15pt}
     \begin{center}
+        \chemnameinit{}
         \setchemfig{atom sep=15pt}
         \setchemfig{fixed length=true}
         \setchemfig{arrow coeff=0.8}
@@ -2103,27 +2107,28 @@
 \newpage
 
 \subsubsection{烷烃}
-    烷烃指的是一类碳原子间均以碳碳单键结合的链状碳氢化合物。\\[3mm]
+    烷烃指的是一类碳原子间均为碳碳单键的链状碳氢化合物。\\[3mm]
     烷烃的分子式可以使用通式~\ce{C_{n}H_{2n+2}}表示。\\[4mm]
     以下列出了一些常见的烷烃：\vspace{5pt}
     \begin{center}
+        \chemnameinit{\chemfig{C(-[0]H)(-[2]H)(-[4]H)(-[6]H)}}
         \setchemfig{atom sep=15pt}
         \setchemfig{fixed length=true}
-        \chemname[15pt]
+        \chemname[5pt]
         {
             \chemfig
             {
                 C(-[0]H)(-[2]H)(-[4]H)(-[6]H)
             }
         }{甲烷}\qquad
-        \chemname[15pt]
+        \chemname[5pt]
         {
             \chemfig
             {
                 C(-[2]H)(-[4]H)(-[6]H)-C(-[2]H)(-[0]H)(-[6]H)
             }
         }{乙烷}\qquad
-        \chemname[15pt]
+        \chemname[5pt]
         {
             \chemfig
             {
@@ -2138,17 +2143,18 @@
     烷烃中丙烷只有一种同分异构体，丁烷有两种同分异构体，戊烷有三种同分异构体。\\[6mm]
     通常用异和新表示含有如下结构的烷烃：\vspace{5pt}
     \begin{center}
+        \chemnameinit{\chemfig{C(-[0])(-[2]CH_3)(-[4]CH_3)(-[6]CH_3)}}
         \setchemfig{atom sep=15pt}
         \setchemfig{fixed length=true}
 
-        \chemname[15pt]
+        \chemname[5pt]
         {
             \chemfig
             {
                 CH(-[0])(-[3]CH_3)(-[5]CH_3)
             }
         }{异}\qquad\qquad
-        \chemname[15pt]
+        \chemname[5pt]
         {
             \chemfig
             {
@@ -2158,16 +2164,17 @@
     \end{center}\vspace{15pt}
     以下列出了丁烷的两种同分异构体：\vspace{5pt}
     \begin{center}
+        \chemnameinit{\chemfig{CH_3-CH(-[6]CH_3)-CH_3}}
         \setchemfig{atom sep=15pt}
         \setchemfig{fixed length=true}
-        \chemname[15pt]
+        \chemname[5pt]
         {
             \chemfig
             {
                 CH_3-CH_2-CH_2-CH_3
             }
         }{正丁烷}\qquad\quad
-        \chemname[15pt]
+        \chemname[5pt]
         {
             \chemfig
             {
@@ -2175,25 +2182,26 @@
             }
         }{异丁烷}
     \end{center}\vspace{15pt}
-    以下列出了戊烷的三种同分异构体：
+    以下列出了戊烷的三种同分异构体：\vspace{-5pt}
     \begin{center}
+        \chemnameinit{\chemfig{CH_3-C(-[2]CH3)(-[6]CH3)-CH_3}}
         \setchemfig{atom sep=15pt}
         \setchemfig{fixed length=true}
-        \chemname[15pt]
+        \chemname[5pt]
         {
             \chemfig
             {
                 CH_3-CH_2-CH_2-CH_2-CH_3
             }
         }{正戊烷}\qquad\quad
-        \chemname[15pt]
+        \chemname[5pt]
         {
             \chemfig
             {
                 CH_3-CH(-[6]CH_3)-CH_2-CH_3
             }
         }{异戊烷}\qquad\quad
-        \chemname[15pt]
+        \chemname[5pt]
         {
             \chemfig
             {
@@ -2214,37 +2222,32 @@
     主链的编号依据最低系列原则，选取编号方式中使得取代基的位号序列字典序最小的一种。\\[6mm]
     3.主链的命名\\[3mm]
     设主链的碳原子数量为X，将主链命名为：
-    \begin{large}
-        \begin{center}
-            X烷~~~~~~~~X$\in\big\{\text{甲},\text{乙},\text{丙},\text{丁},\cdots\big\}$
-        \end{center}
-    \end{large}\vspace{10pt}
+    \begin{center}
+        X烷~~~~~~~~X\,$\in\big\{\text{甲},\text{乙},\text{丙},\text{丁},\cdots\big\}$
+    \end{center}\vspace{10pt}
     4.侧链的命名\\[3mm]
-    设侧链的数量为N，设侧链的位号位$a_1\sim a_n$，将侧链命名为：\vspace{2pt}
-    \begin{large}
-        \begin{center}
-            $a_1,a_2,a_n$\,-\,N取代基~~~~~~~~N$\in\big\{\text{一},\text{二},\text{三},\text{四},\cdots\big\}$~~~~~~~~$a_1\sim a_n\in\big\{1,2,3,4,\cdots\big\}$
-        \end{center}
-    \end{large}\vspace{15pt}
+    设侧链的数量为N，设侧链的位号位$\text{A}_1\sim \text{A}_n$，将侧链命名为：\vspace{2pt}
+    \begin{center}
+        $\text{A}_1,\text{A}_2,\text{A}_n$\,-\,N取代基~~~~~~~~N\,$\in\big\{\text{一},\text{二},\text{三},\text{四},\cdots\big\}$~~~~~~~~$\text{A}_1\sim \text{A}_n\in\big\{1,2,3,4,\cdots\big\}$
+    \end{center}\vspace{15pt}
     5.完成命名\\[3mm]
     将侧链按照简单到复杂的顺序依次用减号连接，添加在主链前：
-    \begin{large}
-        \begin{center}
-            [侧链$1$]\,-\,[侧链$2$]\,-\,[侧链Y][主链]
-        \end{center}
-    \end{large}\vspace{25pt}
+    \begin{center}
+        [侧链$1$]\,-\,[侧链$2$]\,-\,[侧链Y][主链]
+    \end{center}\vspace{25pt}
     以下列出了部分使用系统命名法的烷烃：\vspace{5pt}
     \begin{center}
+        \chemnameinit{\chemfig{CH_3-CH(-[6]CH_3)-CH_2-CH(-[6]CH_3-[6]CH_3)-CH_3}}
         \setchemfig{atom sep=15pt}
         \setchemfig{fixed length=true}
-        \chemname[15pt]
+        \chemname[5pt]
         {
             \chemfig
             {
-                CH_3-CH(-[6]CH_3)-CH_2-CH(-[6]CH_3-[6]CH_3)-CH_3
+                CH_3-CH(-[6]CH_3)-CH_2-CH(-[6]CH_2-[6]CH_3)-CH_3
             }
         }{2,4-二甲基己烷}\qquad\quad
-        \chemname[15pt]
+        \chemname[5pt]
         {
             \chemfig
             {
@@ -2253,6 +2256,415 @@
         }{2,5-二甲基-3-乙基庚烷}
     \end{center}
     
+\newpage
 
+\subsubsection{环烷烃}
+    环烷烃指的是一类碳原子间均为碳碳单键的环状碳氢化合物。\\[3mm]
+    环烷烃的分子式可以使用通式~\ce{C_{n}H_{2n}}表示。\\[4mm]
+    以下列出了一些常见的环烷烃：\vspace{5pt}
+    \begin{center}
+        \chemnameinit{\chemfig{[:30]C*6(-C(-[:-30]H)(-[:-90]H)-C(-[:30]H)(-[:-30]H)-C(-[:90]H)(-[:30]H)-C(-[:150]H)(-[:90]H)-C(-[:210]H)(-[:150]H)-)(-[:-150]H)(-[:-90]H)}}
+        \setchemfig{atom sep=25pt}
+        \chemname[15pt]
+        {
+            \chemfig
+            {
+                [:18]C*5(-C(-[:-36]H)(-[:-72]H)-C(-[:0]H)(-[:36]H)-C(-[:72]H)(-[:108]H)-C(-[:180]H)(-[:144]H)-)(-[:-144]H)(-[:-108]H)
+            }
+        }{环戊烷}\qquad\qquad
+        \chemname[15pt]
+        {
+            \chemfig
+            {
+                [:30]C*6(-C(-[:-30]H)(-[:-90]H)-C(-[:30]H)(-[:-30]H)-C(-[:90]H)(-[:30]H)-C(-[:150]H)(-[:90]H)-C(-[:210]H)(-[:150]H)-)(-[:-150]H)(-[:-90]H)
+            }
+        }{环己烷}\qquad
+    \end{center}\vspace{20pt}
+    以下列出了一些常见的环烷烃的简写：\vspace{5pt}
+    \begin{center}
+        \chemnameinit{\chemfig{[:30]C*6(------)}}
+        \setchemfig{atom sep=25pt}
+        \chemname[15pt]
+        {
+            \chemfig
+            {
+                [:18]*5(-----)
+            }
+        }{环戊烷}\qquad\qquad\quad
+        \chemname[15pt]
+        {
+            \chemfig
+            {
+                [:30]*6(------)
+            }
+        }{环己烷}\qquad
+    \end{center}\vspace{15pt}
+    环烷烃对碳原子数量最低要求是三个，即环丙烷是最简单的环烷烃。\\[3mm]
+    环烷烃的化学性质和对应的链烷烃的化学性质基本相似。
+
+\newpage
+
+\subsection{烯}
+    烯指的是一类碳原子间存在碳碳双键的碳氢化合物。
+
+\subsubsection{乙烯}
+    乙烯（\ce{C2H4}）是最简单的烯烃，结构式为：\vspace{5pt}
+    \begin{center}
+        \chemnameinit{\chemfig{C(-[4]H)(-[6]H)=C(-[6]H)(-[0]H)}}
+        \setchemfig{atom sep=15pt}
+        \setchemfig{fixed length=true}
+        \chemname[5pt]
+        {
+            \chemfig
+            {
+                C(-[4]H)(-[6]H)=C(-[6]H)(-[0]H)
+            }
+        }{乙烯}
+    \end{center}\vspace{10pt}
+    乙烯可以通过酒精和浓硫酸混合加热制取：
+    \begin{center}
+        \ce{C2H5OH ->T[\text{浓}\ce{H2SO4}][加热] H2O + C2H4 ^}\\[3mm]
+    \end{center}
+    乙烯可以在空气中燃烧，火焰明亮伴有黑烟：
+    \begin{center}
+        \ce{C2H4 + 3O2 ->T[点燃] 2CO2 + 2H2O}\\[4mm]
+    \end{center}
+    有机物的加成反应：有机物分子中不饱和碳原子通过断开部分键与其他原子团直接结合的反应。\\[3mm]
+    乙烯可以和溴水发生加成反应：\vspace{5pt}
+    \begin{center}
+        \chemnameinit{\chemfig{C(-[2]H)(-[4]Br)(-[6]H)-C(-[2]H)(-[0]Br)(-[6]H)}}
+        \setchemfig{atom sep=15pt}
+        \setchemfig{fixed length=true}
+        \setchemfig{arrow coeff=0.8}
+
+        \schemestart
+            \chemfig{C(-[4]H)(-[6]H)=C(-[6]H)(-[0]H)}
+            \+{12pt,10pt,1pt}
+            \ce{Br2}
+            ~~~~\arrow(foo.mid east--bar.mid west){->}~~~~
+            \chemname[5pt]{\chemfig{C(-[2]Br)(-[4]H)(-[6]H)-C(-[2]Br)(-[0]H)(-[6]H)}}{1,2-二溴乙烷}
+        \schemestop
+    \end{center}\vspace{15pt}
+    乙烯可以通过和氢气的加成反应生成乙烷：
+    \begin{center}
+        \chemnameinit{\chemfig{C(-[2]H)(-[4]Br)(-[6]H)-C(-[2]H)(-[0]Br)(-[6]H)}}
+        \setchemfig{atom sep=15pt}
+        \setchemfig{fixed length=true}
+        \setchemfig{arrow coeff=0.8}
+
+        \schemestart
+            \chemname[5pt]{\chemfig{C(-[4]H)(-[6]H)=C(-[6]H)(-[0]H)}}{乙烯}
+            \+{12pt,10pt,1pt}
+            \ce{H2}
+            ~~~~~\arrow(foo.mid east--bar.mid west){->[\footnotesize 催化剂][\footnotesize 加热]}~~~~
+            \chemname[5pt]{\chemfig{C(-[2]H)(-[4]H)(-[6]H)-C(-[2]H)(-[0]H)(-[6]H)}}{乙烷}
+        \schemestop
+    \end{center}\vspace{15pt}
+    乙烯可以通过和氯化氢的加成反应生成氯乙烷：
+    \begin{center}
+        \chemnameinit{\chemfig{C(-[2]H)(-[4]Br)(-[6]H)-C(-[2]H)(-[0]Br)(-[6]H)}}
+        \setchemfig{atom sep=15pt}
+        \setchemfig{fixed length=true}
+        \setchemfig{arrow coeff=0.8}
+
+        \schemestart
+            \chemname[5pt]{\chemfig{C(-[4]H)(-[6]H)=C(-[6]H)(-[0]H)}}{乙烯}
+            \+{12pt,10pt,1pt}
+            \ce{HCl}
+            ~~~\arrow(foo.mid east--bar.mid west){->[\footnotesize 催化剂][\footnotesize 加热]}~~~~
+            \chemname[5pt]{\chemfig{C(-[2]H)(-[4]H)(-[6]H)-C(-[2]H)(-[0]H)(-[6]Cl)}}{氯乙烷}
+        \schemestop
+    \end{center}\vspace{15pt}
+
+\newpage
+
+    有机物的聚合反应：通过相对分子量较小的有机物的互相结合，形成相对分子量很大的有机物。\\[3mm]
+    乙烯可以通过聚合反应生成聚乙烯：
+    \begin{center}
+        \setchemfig{atom sep=15pt}
+        \setchemfig{fixed length=true}
+        \setchemfig{arrow coeff=0.8}
+
+        \schemestart
+            \chemfig{nCH_2=CH_2}
+            ~~~~~\arrow(foo.mid east--bar.mid west){->[\footnotesize 催化剂]}~~~~
+            \chemfig{\text{\big[}-CH_2-CH_2-\text{\big]$_n$}}
+        \schemestop
+    \end{center}
+
+\subsubsection{烯烃}
+    烯烃指的是一类碳原子间存在一个碳碳双键的链状碳氢化合物。\\[3mm]
+    烯烃的分子式可以使用通式\ce{C_{n}H_{2n}}表示。\\[3mm]
+    以下列出了一些常见的烯烃：\vspace{5pt}
+    \begin{center}
+        \chemnameinit{\chemfig{C(-[4]H)(-[6]H)=C(-[6]H)(-[0]H)}}
+        \setchemfig{atom sep=15pt}
+        \setchemfig{fixed length=true}
+        \chemname[5pt]
+        {
+            \chemfig
+            {
+                C(-[4]H)(-[6]H)=C(-[6]H)(-[0]H)
+            }
+        }{乙烯}\qquad\qquad
+        \chemname[5pt]
+        {
+            \chemfig
+            {
+                C(-[4]H)(-[6]H)=C(-[6]H)-C(-[6]H)(-[2]H)(-[0]H)
+            }
+        }{丙烯}
+    \end{center}\vspace{10pt}
+    烯烃的系统命名法：\\[3mm]
+    在主链的选择时，还要首先保证选择的主链中含有双键。\\[3mm]
+    在主链的编号时，还要首先保证编号的起点离双键最近。\\[3mm]
+    设主链的碳原子数量为X，设双键连接的两个碳原子中较小的编号为B，将主链命名为：
+    \begin{center}
+        B-X烯~~~~~~~~X\,$\in\big\{\text{甲},\text{乙},\text{丙},\text{丁},\cdots\big\}$~~~~~~~~$\text{B}\in\big\{1,2,3,4,\cdots\big\}$\\[5mm]
+    \end{center}
+    在完成命名时，需要在主链的名称前添加减号。\\[8mm]
+    以下列出了部分使用系统命名法的烯烃：\vspace{5pt}
+    \begin{center}
+        \chemnameinit{\chemfig{CH_2=CH-CH_2=CH_3}}
+        \setchemfig{atom sep=15pt}
+        \setchemfig{fixed length=true}
+        \chemname[15pt]
+        {
+            \chemfig
+            {
+                CH_2=CH-CH_2-CH_3
+            }
+        }{1-丁烯}\qquad\qquad
+        \chemname[15pt]
+        {
+            \chemfig
+            {
+                CH_3-CH=CH-CH_3
+            }
+        }{2-丁烯}
+    \end{center}\vspace{20pt}
+    \begin{center}
+        \chemnameinit{\chemfig{CH_3-CH(-[6]CH_3)-CH_2-CH(-[6]CH_3)-CH_2-CH(-[6]CH_2-[6]CH_3)=CH_2}}
+        \setchemfig{atom sep=15pt}
+        \setchemfig{fixed length=true}
+        \chemname[5pt]
+        {
+            \chemfig
+            {
+                CH_3-CH_2-CH(-[6]CH_3)-CH_2-CH(-[6]CH_3)-CH_2-C(-[6]CH_2-[6]CH_3)=CH_2
+            }
+        }{4,6-二甲基-2-乙基-1-辛烯}
+    \end{center}
+
+\subsubsection{二烯烃}
+    二烯烃指的是一类碳原子间存在两个碳碳双键的链状碳氢化合物。\\[3mm]
+    二烯烃的分子式可以使用通式\ce{C_{n}H_{2n}}表示。\\[6mm]
+    二烯烃的系统命名法：\\[3mm]
+    在主链的选择时，还要首先保证选择的主链中含有两个双键。\\[3mm]
+    在主链的编号时，还要首先保证编号的起点离任意双键最近。\\[3mm]
+    设主链的碳原子数量为X，设双键连接的两个碳原子中较小的编号为B$_1$$\sim$B$_2$，将主链命名为：
+    \begin{center}
+        B$_1$,B$_2$-X二烯~~~~~~~~X\,$\in\big\{\text{甲},\text{乙},\text{丙},\text{丁},\cdots\big\}$~~~~~~~~$\text{B}_1\sim\text{B}_2\in\big\{1,2,3,4,\cdots\big\}$\\[5mm]
+    \end{center}
+    在完成命名时，需要在主链的名称前添加减号。\\[8mm]
+    以下列出了部分使用系统命名法的烯烃：\vspace{5pt}
+    \begin{center}
+        \chemnameinit{\chemfig{CH_2=C(-[6]CH_3)-CH=CH_2}}
+        \setchemfig{atom sep=15pt}
+        \setchemfig{fixed length=true}
+        \chemname[4pt]
+        {
+            \chemfig
+            {
+                CH_2=C=CH-CH_3
+            }
+        }{1,2-丁二烯}\qquad\quad
+        \chemname[5pt]
+        {
+            \chemfig
+            {
+                CH_2=CH-CH=CH_2
+            }
+        }{1,3-丁二烯}\qquad\quad
+        \chemname[5pt]
+        {
+            \chemfig
+            {
+                CH_2=C(-[6]CH_3)-CH=CH_2
+            }
+        }{2-甲基-1,3-丁二烯}
+    \end{center}\vspace{20pt}
+    异戊二烯可以通过聚合反应生成聚异戊二烯：\vspace{5pt}
+    \begin{center}
+        \setchemfig{atom sep=15pt}
+        \setchemfig{fixed length=true}
+        \setchemfig{arrow coeff=0.8}
+
+        \schemestart
+            \chemfig{nCH_2=C(-[6]CH_3)-CH=CH_2}
+            ~~~~~\arrow(foo.mid east--bar.mid west){->[\footnotesize 催化剂]}~~~~
+            \chemfig{\text{\big[}-CH_2-C(-[6]CH_3)=CH-CH_2-\text{\big]$_n$}}
+        \schemestop
+    \end{center}\vspace{10pt}
+    反应生成的聚异戊二烯实际上就是天然橡胶的主要成分。\\[8mm]
+    累积二烯烃：二烯烃中的两个双键间隔的单键数目$=0$\\[3mm]
+    共轭二烯烃：二烯烃中的两个双键间隔的单键数目$=1$\\[3mm]
+    隔离二烯烃：二烯烃中的两个双键间隔的单键数目$\ge 2$
+
+\newpage
+
+\subsection{炔}
+    炔指的是一类碳原子间存在碳碳叁键的碳氢化合物。
+
+\subsubsection{乙炔}
+    乙炔（\ce{C2H2}）是最简单的炔烃，结构式为：\vspace{5pt}
+    \begin{center}
+        \chemnameinit{\chemfig{H-C~C-H}}
+        \setchemfig{atom sep=15pt}
+        \setchemfig{fixed length=true}
+        \chemname[15pt]
+        {
+            \chemfig
+            {
+                H-C~C-H
+            }
+        }{乙炔}
+    \end{center}\vspace{10pt}
+    乙炔可以通过电石和水的反应制取：
+    \begin{center}
+        \ce{CaC2 + 2H2O -> Ca(OH)2 + C2H4 ^}\\[3mm]
+    \end{center}
+    乙炔可以在空气中燃烧，火焰明亮伴有黑烟：
+    \begin{center}
+        \ce{2C2H2 + 5O2 ->T[点燃] 4CO2 + 2H2O}\\[3mm]
+    \end{center}
+    氧炔焰指的是乙炔在氧气中燃烧的火焰。\\[3mm]
+    氧炔焰的温度可以达到3000$^\circ$C，常用于金属的切割和焊接。\\[6mm]
+    有机物的加成反应：有机物分子中不饱和碳原子通过断开部分键与其他原子团直接结合的反应。\\[3mm]
+    乙炔可以和溴水发生加成反应：\vspace{5pt}
+    \begin{center}
+        \chemnameinit{\chemfig{C(-[2]H)(-[4]Br)(-[6]H)-C(-[2]H)(-[0]Br)(-[6]H)}}
+        \setchemfig{atom sep=15pt}
+        \setchemfig{fixed length=true}
+        \setchemfig{arrow coeff=0.8}
+
+        \schemestart
+            \chemfig{H-C~C-H}
+            \+{12pt,10pt,1pt}
+            \ce{Br2}
+            ~~~~\arrow(foo.mid east--bar.mid west){->}~~~~
+            \chemname[5pt]{\chemfig{C(-[6]Br)(-[4]H)=C(-[6]Br)(-[0]H)}}{1,2-二溴乙烯}
+        \schemestop
+    \end{center}\vspace{10pt}
+    乙炔可以通过和氢气的加成反应生成乙烯：\vspace{5pt}
+    \begin{center}
+        \chemnameinit{\chemfig{C(-[2]H)(-[4]Br)(-[6]H)-C(-[2]H)(-[0]Br)(-[6]H)}}
+        \setchemfig{atom sep=15pt}
+        \setchemfig{fixed length=true}
+        \setchemfig{arrow coeff=0.8}
+
+        \schemestart
+            \chemname[5pt]{\chemfig{H-C~C-H}}{乙炔}
+            \+{12pt,10pt,1pt}
+            \ce{H2}
+            ~~~~~\arrow(foo.mid east--bar.mid west){->[\footnotesize 催化剂][\footnotesize 加热]}~~~~
+            \chemname[5pt]{\chemfig{C(-[4]H)(-[6]H)=C(-[6]H)(-[0]H)}}{乙烯}
+        \schemestop
+    \end{center}\vspace{15pt}
+    乙炔可以通过和氯化氢的加成反应生成氯乙烯：
+    \begin{center}
+        \chemnameinit{\chemfig{C(-[4]H)(-[6]H)=C(-[0]H)(-[6]Cl)}}
+        \setchemfig{atom sep=15pt}
+        \setchemfig{fixed length=true}
+        \setchemfig{arrow coeff=0.8}
+
+        \schemestart
+            \chemname[5pt]{\chemfig{H-C~C-H}}{乙炔}
+            \+{12pt,10pt,1pt}
+            \ce{HCl}
+            ~~~\arrow(foo.mid east--bar.mid west){->[\footnotesize 催化剂][\footnotesize 加热]}~~~~
+            \chemname[5pt]{\chemfig{C(-[4]H)(-[6]H)=C(-[0]H)(-[6]Cl)}}{氯乙烯}
+        \schemestop
+    \end{center}
+
+\newpage
+
+    有机物的聚合反应：通过相对分子量较小的有机物的互相结合，形成相对分子量很大的有机物。\\[3mm]
+    氯乙烯可以通过聚合反应生成聚氯乙烯：
+    \begin{center}
+        \setchemfig{atom sep=15pt}
+        \setchemfig{fixed length=true}
+        \setchemfig{arrow coeff=0.8}
+
+        \schemestart
+            \chemfig{nCH_2=CH-Cl}
+            ~~~~~\arrow(foo.mid east--bar.mid west){->[\footnotesize 催化剂]}~~~~
+            \chemfig{\text{\big[}-CH_2-CH_2(-[6]Cl)-\text{\big]$_n$}}
+        \schemestop
+    \end{center}
+
+\subsubsection{炔烃}
+    炔烃指的是一类碳原子间存在一个碳碳叁键的链状碳氢化合物。\\[3mm]
+    炔烃的分子式可以使用通式\ce{C_{n}H_{2n-2}}表示。\\[3mm]
+    以下列出了一些常见的烯烃：\vspace{5pt}
+    \begin{center}
+        \chemnameinit{\chemfig{C(-[4]H)(-[6]H)=C(-[6]H)(-[0]H)}}
+        \setchemfig{atom sep=15pt}
+        \setchemfig{fixed length=true}
+        \chemname[5pt]
+        {
+            \chemfig
+            {
+                H-C~C-H
+            }
+        }{乙炔}\qquad\qquad
+        \chemname[5pt]
+        {
+            \chemfig
+            {
+                H-C~C-C(-[2]H)(-[6]H)-H
+            }
+        }{丙炔}
+    \end{center}\vspace{10pt}
+    炔烃的系统命名法：\\[3mm]
+    在主链的选择时，还要首先保证选择的主链中含有叁键。\\[3mm]
+    在主链的编号时，还要首先保证编号的起点离叁键最近。\\[3mm]
+    设主链的碳原子数量为X，设叁键连接的两个碳原子中较小的编号为B，将主链命名为：
+    \begin{center}
+        B-X炔~~~~~~~~X\,$\in\big\{\text{甲},\text{乙},\text{丙},\text{丁},\cdots\big\}$~~~~~~~~$\text{B}\in\big\{1,2,3,4,\cdots\big\}$\\[5mm]
+    \end{center}
+    在完成命名时，需要在主链的名称前添加减号。\\[8mm]
+    以下列出了部分使用系统命名法的炔烃：\vspace{5pt}
+    \begin{center}
+        \chemnameinit{\chemfig{CH_2=CH-CH_2=CH_3}}
+        \setchemfig{atom sep=15pt}
+        \setchemfig{fixed length=true}
+        \chemname[15pt]
+        {
+            \chemfig
+            {
+                CH~C-CH_2-CH_3
+            }
+        }{1-丁炔}\qquad\qquad
+        \chemname[15pt]
+        {
+            \chemfig
+            {
+                CH_3-C~C-CH_3
+            }
+        }{2-丁炔}
+    \end{center}\vspace{20pt}
+    \begin{center}
+        \chemnameinit{\chemfig{CH_3-CH(-[6]CH_3)-CH_2-CH(-[6]CH_3)-CH_2-CH(-[6]CH_2-[6]CH_3)=CH_2}}
+        \setchemfig{atom sep=15pt}
+        \setchemfig{fixed length=true}
+        \chemname[5pt]
+        {
+            \chemfig
+            {
+                CH_3-CH_2-CH(-[6]CH_3)-CH_2-CH(-[6]CH_2-[6]CH_3)-CH-C~CH_2
+            }
+        }{6-甲基-4-乙基-1-辛炔}
+    \end{center}
 
 \end{document}
