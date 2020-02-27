@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2019.7.21)  26 FEB 2020 23:41
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2019.7.21)  27 FEB 2020 15:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1327,7 +1327,30 @@ LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/sl' in size <10.53937> not
 LaTeX Font Warning: Font shape `TU/等线(0)/m/sl' undefined
 (Font)              using `TU/等线(0)/m/n' instead on input line 51.
 
-[2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12] (./ChemistryNote.aux)
+[2] [3] [4] [5] [6] [7] [8] [9] [10] [11] [12]
+Package chemfig Warning: two names for the same node, first name "c2" ignored
+
+Package chemfig Warning: two names for the same node, first name "c3" ignored
+
+Package chemfig Warning: two names for the same node, first name "c2" ignored
+
+Package chemfig Warning: two names for the same node, first name "c3" ignored
+
+Package chemfig Warning: two names for the same node, first name "c2" ignored
+
+Package chemfig Warning: two names for the same node, first name "c3" ignored
+
+ [13]
+Package chemfig Warning: two names for the same node, first name "c2" ignored
+
+Package chemfig Warning: two names for the same node, first name "c2" ignored
+
+ [14]
+Package chemfig Warning: two names for the same node, first name "c2" ignored
+
+Package chemfig Warning: two names for the same node, first name "c3" ignored
+
+ [15] [16] (./ChemistryNote.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.41063pt have occurred.
@@ -1335,14 +1358,17 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
  ) 
 Here is how much of TeX's memory you used:
- 32500 strings out of 492922
- 730175 string characters out of 6136751
- 898839 words of memory out of 5000000
- 36077 multiletter control sequences out of 15000+600000
- 537856 words of font info for 94 fonts, out of 8000000 for 9000
+ 33089 strings out of 492922
+ 741273 string characters out of 6136751
+ 992697 words of memory out of 5000000
+ 36666 multiletter control sequences out of 15000+600000
+ 538999 words of font info for 98 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 62i,18n,98p,477b,1271s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,18n,98p,477b,1413s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on ChemistryNote.pdf (12 pages).
+Output written on ChemistryNote.pdf (16 pages).
