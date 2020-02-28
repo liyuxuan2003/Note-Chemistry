@@ -2330,7 +2330,7 @@
     \begin{center}
         \ce{C2H4 + 3O2 ->T[点燃] 2CO2 + 2H2O}\\[4mm]
     \end{center}
-    有机物的加成反应：有机物分子中不饱和碳原子通过断开部分键与其他原子团直接结合的反应。\\[3mm]
+    有机物的加成反应：有机物中通过碳原子间不饱和键的部分断裂而直接连接其他原子团的反应。\\[3mm]
     乙烯可以和溴水发生加成反应：\vspace{5pt}
     \begin{center}
         \chemnameinit{\chemfig{C(-[2]H)(-[4]Br)(-[6]H)-C(-[2]H)(-[0]Br)(-[6]H)}}
@@ -2541,7 +2541,7 @@
     \end{center}
     氧炔焰指的是乙炔在氧气中燃烧的火焰。\\[3mm]
     氧炔焰的温度可以达到3000$^\circ$C，常用于金属的切割和焊接。\\[6mm]
-    有机物的加成反应：有机物分子中不饱和碳原子通过断开部分键与其他原子团直接结合的反应。\\[3mm]
+    有机物的加成反应：有机物中通过碳原子间不饱和键的部分断裂而直接连接其他原子团的反应。\\[3mm]
     乙炔可以和溴水发生加成反应：\vspace{5pt}
     \begin{center}
         \chemnameinit{\chemfig{C(-[2]H)(-[4]Br)(-[6]H)-C(-[2]H)(-[0]Br)(-[6]H)}}
@@ -2962,7 +2962,7 @@
 \newpage
 
 \subsubsection{萘}
-    萘是一种包含二个苯环的稠环芳香烃，白色片状晶体。\\[3mm]
+    萘（\ce{C_{10}H_{8}}）是一种包含二个苯环的稠环芳香烃，白色片状晶体。\\[3mm]
     萘的结构式：
     \begin{center}
         \chemnameinit{\chemfig{C*6(=C(-H)-C*6(-C(-H)=C(-H)-C(-H)=C(-H)-C)=C-C(-H)=C(-H)-)(-[:-150]H)}}
@@ -2985,7 +2985,7 @@
     \end{center}
 
 \subsubsection{蒽}
-    蒽是一种包含三个苯环的稠环芳香烃，无色片状晶体。\\[3mm]
+    蒽（\ce{C_{14}H_{10}}）是一种包含三个苯环的稠环芳香烃，无色片状晶体。\\[3mm]
     蒽的结构式：
     \begin{center}
         \chemnameinit{\chemfig{C*6(=C(-H)-C*6(-C(-H)=C(-H)-C(-H)=C(-H)-C)=C-C(-H)=C(-H)-)(-[:-150]H)}}
@@ -3006,5 +3006,281 @@
             }
         }{蒽}
     \end{center}
+
+\newpage
+
+\section{醇~~醛~~酸~~酯}
+
+\subsection{醇~~醚}
+    醇和醚分别指的是分子中含有以下结构的有机物：
+    \begin{center}
+        \chemnameinit{\chemfig{-O-H}}
+        \setchemfig{atom sep=15pt}
+        \setchemfig{fixed length=true}
+        \chemname[10pt]
+        {
+            \chemfig
+            {
+                -O-H
+            }
+        }{醇的结构}\qquad\qquad
+        \chemnameinit{\chemfig{-O-H}}
+        \setchemfig{atom sep=15pt}
+        \chemname[10pt]
+        {
+            \chemfig
+            {
+                -O-
+            }
+        }{醚的结构}
+    \end{center}\vspace{10pt}
+    其中我们将以下结构称为羟基：
+    \begin{center}
+        \chemnameinit{\chemfig{-O-H}}
+        \setchemfig{atom sep=15pt}
+        \setchemfig{fixed length=true}
+        \chemname[10pt]
+        {
+            \chemfig
+            {
+                -O-H
+            }
+        }{羟基}
+    \end{center}
+
+\subsubsection{乙醇}
+    乙醇（\ce{C2H6O}）是一种醇，结构式为：
+    \begin{center}
+        \chemnameinit{\chemfig{-O-H}}
+        \setchemfig{atom sep=15pt}
+        \setchemfig{fixed length=true}
+        \chemname[10pt]
+        {
+            \chemfig
+            {
+                H-C(-[2]H)(-[6]H)-C(-[2]H)(-[6]H)-OH
+            }
+        }{乙醇}
+    \end{center}\vspace{10pt}
+    乙醇可以在空气中燃烧，火焰颜色为淡蓝色：
+    \begin{center}
+        \ce{C2H6O + 3O2 ->T[点燃] 2CO2 + 3H2O}\\[8mm]
+    \end{center}
+    乙醇可以和氧气发生氧化反应，生成乙醛：\vspace{8pt}
+    \begin{center}
+        \chemnameinit{\chemfig{C(-[4]H)(-[6]H)=C(-[0]H)(-[6]Cl)}}
+        \setchemfig{atom sep=15pt}
+        \setchemfig{fixed length=true}
+        \setchemfig{arrow coeff=0.8}
+
+        \schemestart
+            ~~~~~~~~2~~~~\chemname[5pt]{\chemfig{H-C(-[2]H)(-[6]H)-C(-[2]H)(-[6]H)-OH}}{乙醇}
+            \+{12pt,10pt,1pt}
+            \ce{O_2}
+            ~~~~\arrow(foo.mid east--bar.mid west){->[\footnotesize \ce{Cu}~/~\ce{Ag}][\footnotesize 加热]}~~~~
+            2~~~~\chemname[5pt]{\chemfig{H-C(-[2]H)(-[6]H)-C(=[2]O)-H}}{乙醛}
+            \+{12pt,10pt,1pt}
+            \ce{2H_2O}
+        \schemestop
+    \end{center}\vspace{15pt}
+    乙醛可以和氢气发生加成反应，生成乙醇：\vspace{8pt}
+    \begin{center}
+        \chemnameinit{\chemfig{C(-[4]H)(-[6]H)=C(-[0]H)(-[6]Cl)}}
+        \setchemfig{atom sep=15pt}
+        \setchemfig{fixed length=true}
+        \setchemfig{arrow coeff=0.8}
+
+        \schemestart
+        \chemname[5pt]{\chemfig{H-C(-[2]H)(-[6]H)-C(=[2]O)-H}}{乙醛}
+            \+{12pt,10pt,1pt}
+            \ce{H_2}
+            ~~~~\arrow(foo.mid east--bar.mid west){->[\footnotesize \ce{Ni}][\footnotesize 加热]}~~~~
+            \chemname[5pt]{\chemfig{H-C(-[2]H)(-[6]H)-C(-[2]H)(-[6]H)-OH}}{乙醇}
+        \schemestop
+    \end{center}
+
+\newpage
+
+    有机物的消除反应：有机物中通过脱去小分子从而在碳原子间生成不饱和键的反应。\\[3mm]    
+    乙醇可以通过消除反应，生成乙烯：\vspace{8pt}
+    \begin{center}
+        \chemnameinit{\chemfig{C(-[4]H)(-[6]H)=C(-[0]H)(-[6]Cl)}}
+        \setchemfig{atom sep=15pt}
+        \setchemfig{fixed length=true}
+        \setchemfig{arrow coeff=0.8}
+
+        \schemestart
+            \chemname[5pt]{\chemfig{H-C(-[2]H)(-[6]H)-C(-[2]H)(-[6]OH)-H}}{乙醇}
+            ~~~~\arrow(foo.mid east--bar.mid west){->[\footnotesize 浓\ce{H2SO4}][\footnotesize 加热]}~~~~
+            \chemname[5pt]{\chemfig{H-C(-[6]H)=C(-[6]H)-H}}{乙烯}
+            \+{12pt,10pt,1pt}
+            \ce{H2O}
+        \schemestop
+    \end{center}\vspace{20pt}
+    有机物的加成反应：有机物中通过碳原子间不饱和键的部分断裂而直接连接其他原子团的反应。\\[3mm]
+    乙烯可以通过加成反应，生成乙醇：
+    \begin{center}
+        \chemnameinit{\chemfig{C(-[4]H)(-[6]H)=C(-[0]H)(-[6]Cl)}}
+        \setchemfig{atom sep=15pt}
+        \setchemfig{fixed length=true}
+        \setchemfig{arrow coeff=0.8}
+
+        \schemestart
+            \chemname[5pt]{\chemfig{H-C(-[6]H)=C(-[6]H)-H}}{乙烯}
+            \+{12pt,10pt,1pt}
+            \ce{H2O}
+            ~~~~\arrow(foo.mid east--bar.mid west){->[\footnotesize 催化剂][\footnotesize 加热]}~~~~
+            \chemname[5pt]{\chemfig{H-C(-[2]H)(-[6]H)-C(-[2]H)(-[6]OH)-H}}{乙醇}
+        \schemestop
+    \end{center}\vspace{40pt}
+    乙醇通过浓硫酸脱水时，温度在170$^\circ$C时生成乙烯：\vspace{8pt}
+    \begin{center}
+        \chemnameinit{\chemfig{C(-[4]H)(-[6]H)=C(-[0]H)(-[6]Cl)}}
+        \setchemfig{atom sep=15pt}
+        \setchemfig{fixed length=true}
+        \setchemfig{arrow coeff=0.8}
+
+        \schemestart
+            \chemname[5pt]{\chemfig{H-C(-[2]H)(-[6]H)-C(-[2]H)(-[6]OH)-H}}{乙醇}
+            ~~~~\arrow(foo.mid east--bar.mid west){->[\footnotesize 浓\ce{H2SO4}][\footnotesize 170$^\circ$C]}~~~~
+            \chemname[5pt]{\chemfig{H-C(-[6]H)=C(-[6]H)-H}}{乙烯}
+            \+{12pt,10pt,1pt}
+            \ce{H2O}
+        \schemestop
+    \end{center}\vspace{20pt}
+    乙醇通过浓硫酸脱水时，温度在140$^\circ$C时生成乙醚：\vspace{8pt}
+    \begin{center}
+        \chemnameinit{\chemfig{C(-[4]H)(-[6]H)=C(-[0]H)(-[6]Cl)}}
+        \setchemfig{atom sep=15pt}
+        \setchemfig{fixed length=true}
+        \setchemfig{arrow coeff=0.8}
+
+        \schemestart
+            2~~~~\chemname[5pt]{\chemfig{H-C(-[2]H)(-[6]H)-C(-[2]H)(-[6]OH)-H}}{乙醇}
+            ~~~~\arrow(foo.mid east--bar.mid west){->[\footnotesize 浓\ce{H2SO4}][\footnotesize 140$^\circ$C]}~~~~
+            \chemname[5pt]{\chemfig{H-C(-[2]H)(-[6]H)-C(-[2]H)(-[6]H)-O-C(-[2]H)(-[6]H)-C(-[2]H)(-[6]H)-H}}{乙醚}
+            \+{12pt,10pt,1pt}
+            \ce{H2O}
+        \schemestop
+    \end{center}\vspace{20pt}
+
+\newpage
+
+\subsubsection{醇类}
+    含有一个羟基的醇称为一元醇。\\[3mm]
+    含有两个羟基的醇称为二元醇。\\[3mm]
+    含有三个羟基的醇称为三元醇。\\[6mm]
+    以下列出了一些常见的一元醇：\vspace{8pt}
+    \begin{center}
+        \chemnameinit{\chemfig{H-C(-[2]H)(-[6]H)-C(-[2]H)(-[6]H)-OH}}
+        \setchemfig{atom sep=15pt}
+        \setchemfig{fixed length=true}
+        \chemname[5pt]
+        {
+            \chemfig
+            {
+                H-C(-[2]H)(-[6]H)-OH
+            }
+        }{甲醇}\qquad\quad
+        \chemname[5pt]
+        {
+            \chemfig
+            {
+                H-C(-[2]H)(-[6]H)-C(-[2]H)(-[6]H)-OH
+            }
+        }{乙醇}\qquad\quad
+        \chemname[5pt]
+        {
+            \chemfig
+            {
+                H-C(-[2]H)(-[6]H)-C(-[2]H)(-[6]H)-C(-[2]H)(-[6]H)-OH
+            }
+        }{丙醇}
+    \end{center}\vspace{20pt}
+    以下列出了一些常见的二元醇和三元醇：\vspace{8pt}
+    \begin{center}
+        \chemnameinit{\chemfig{H-C(-[2]H)(-[6]H)-C(-[2]H)(-[6]H)-OH}}
+        \setchemfig{atom sep=15pt}
+        \setchemfig{fixed length=true}
+        \chemname[5pt]
+        {
+            \chemfig
+            {
+                H-C(-[2]H)(-[6]OH)-C(-[2]H)(-[6]OH)-H
+            }
+        }{乙二醇}\qquad\quad
+        \chemname[5pt]
+        {
+            \chemfig
+            {
+                H-C(-[2]H)(-[6]OH)-C(-[2]H)(-[6]OH)-C(-[2]H)(-[6]OH)-H
+            }
+        }{丙三醇}\qquad\quad
+    \end{center}\vspace{15pt}
+    甲醇和乙醇均为无色液体，甲醇俗称木精，乙醇俗称酒精。\\[3mm]
+    乙二醇和丙三醇均为无色黏稠液体，乙二醇俗称甘醇，丙三醇俗称甘油。\\[6mm]
+    羟基与链烃直接连接形成的有机物，称为醇。\\[3mm]
+    羟基与苯环直接连接形成的有机物，称为酚。\\[3mm]
+    苯酚（\ce{C6H6O}）是最简单的酚，结构式为：\vspace{10pt}
+    \begin{center}
+        \chemnameinit{\chemfig{[:30]C*6(=C(-[:-60]H)-C(-[:0]H)=C(-[:60]H)-C(-[:120]H)=C(-[:180]H)-)(-[:240]H)}}
+        \setchemfig{atom sep=25pt}
+        \chemname[10pt]
+        {
+            \chemfig
+            {
+                [:30]C*6(=C(-[:-60]H)-C(-[:0]OH)=C(-[:60]H)-C(-[:120]H)=C(-[:180]H)-)(-[:240]H)
+            }
+        }{苯酚}\qquad\qquad
+        \setchemfig{atom sep=20pt}
+        \chemname[10pt]
+        {
+            \chemfig
+            {
+                [:30]*6(=-(-OH)=-=-)
+            }
+        }{苯酚}
+    \end{center}\vspace{10pt}
+    苯酚是一种无色针状晶体，易被空气氧化变为粉红色。
+    
+\newpage
+
+\subsubsection{醚类}
+    两侧基团相同的称为对称醚。\\[3mm]
+    两侧基团不同的称为混合醚。\\[6mm]
+    以下列出了一些常见的对称醚：\vspace{8pt}
+    \begin{center}
+        \chemnameinit{\chemfig{H-C(-[2]H)(-[6]H)-C(-[2]H)(-[6]H)-OH}}
+        \setchemfig{atom sep=15pt}
+        \setchemfig{fixed length=true}
+        \chemname[5pt]
+        {
+            \chemfig
+            {
+                H-C(-[2]H)(-[6]H)-O-C(-[2]H)(-[6]H)-H
+            }
+        }{甲醚}\qquad\quad
+        \chemname[5pt]
+        {
+            \chemfig
+            {
+                H-C(-[2]H)(-[6]H)-C(-[2]H)(-[6]H)-O-C(-[2]H)(-[6]H)-C(-[2]H)(-[6]H)-H
+            }
+        }{乙醚}
+    \end{center}\vspace{20pt}
+    以下列出了一些常见的混合醚：\vspace{8pt}
+    \begin{center}
+        \chemnameinit{\chemfig{H-C(-[2]H)(-[6]H)-C(-[2]H)(-[6]H)-OH}}
+        \setchemfig{atom sep=15pt}
+        \setchemfig{fixed length=true}
+        \chemname[5pt]
+        {
+            \chemfig
+            {
+                H-C(-[2]H)(-[6]H)-O-C(-[2]H)(-[6]H)-C(-[2]H)(-[6]H)-H
+            }
+        }{甲乙醚}\qquad\quad
+    \end{center}\vspace{10pt}
+    乙醚是一种无色及易挥发的液体，吸入少量乙醚可以引起全身麻醉，因此乙醚常用作麻醉剂。
 
 \end{document}
