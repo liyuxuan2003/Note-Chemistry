@@ -110,13 +110,12 @@
     若某种核素不稳定，就代表这种核素会发生核衰变，核衰变分为两种：
 
 \paragraph{$\alpha$衰变}
-    原子发生$\alpha$衰变的时候，会抛出两个中子，两个质子，两个电子。\\[1mm]
-    $\alpha$衰变会产生一个$\alpha$粒子和两个$\beta$粒子，
-    两种粒子分别以$\alpha$射线和$\beta$射线的形式放出。
+    原子发生$\alpha$衰变的时候，会抛出两个中子和两个质子，组成一个$\alpha$粒子。\\[1mm]
+    $\alpha$衰变所产生的$\alpha$粒子以$\alpha$射线的形式放出。
 
 \paragraph{$\beta$衰变}
-    原子发生$\beta$衰变的时候，一个中子会变为一个质子，一个电子，其中电子会被抛出。\\[1mm]
-    $\beta$衰变会产生一个$\beta$粒子，以$\beta$射线的形式放出。\\
+    原子发生$\beta$衰变的时候，一个中子会变为一个质子和一个电子，电子即$\beta$粒子。\\[1mm]
+    $\beta$衰变所产生的$\beta$粒子以$\beta$射线的形式放出。\\
 
     其中$\alpha$粒子的本质是由两个中子和两个质子结合而成的氦离子，
     而$\beta$粒子的本质就是电子。\\[3mm]
@@ -135,7 +134,8 @@
 
 \subsection{原子核外电子排布}
     核外电子的排布可以由内向外分为数个电子层，
-    电子层用主量子数$n$编号，$n$越小电子层越靠内，$n$越大电子层越靠外。\\
+    电子层用主量子数$n$编号。\\[2mm]
+    $n$越小电子层越靠内，$n$越大电子层越靠外。\vspace{5pt}
     \begin{table}[h]
         \begin{center}
             \begin{tabular}{l|l|l|l|l}
@@ -147,7 +147,8 @@
         \end{center}
     \end{table}\\
     电子层$n$中包含了$n$个能量不同的电子亚层，
-    电子亚层用副量子数$l$编号，$l$越小电子亚层能量越低，$l$越大电子亚层能量越高。\\
+    电子亚层用副量子数$l$编号。\\[2mm]
+    $l$越小电子亚层能量越低，$l$越大电子亚层能量越高。\vspace{5pt}
     \begin{table}[h]
         \begin{center}
             \begin{tabular}{l|l|l|l|l}
@@ -2496,6 +2497,34 @@
             }
         }{2-甲基-1,3-丁二烯}
     \end{center}\vspace{20pt}
+    1,3-丁二烯可以发生1,2-加成反应（相对较少）：
+    \begin{center}
+        \setchemfig{atom sep=15pt}
+        \setchemfig{fixed length=true}
+        \setchemfig{arrow coeff=0.8}
+
+        \schemestart
+            \chemfig{CH_2=CH-CH=CH_2}
+            \+{12pt,10pt,1pt}
+            \ce{Br_2}
+            ~~~~~\arrow(foo.mid east--bar.mid west){->}~~~~
+            \chemfig{CH_2(-[6]Br)-\chemskipalign{C}H(-[6]Br)-\chemskipalign{C}H=\chemskipalign{C}H_2}
+        \schemestop
+    \end{center}\vspace{10pt}
+    1,3-丁二烯可以发生1,4-加成反应（相对较多）：
+    \begin{center}
+        \setchemfig{atom sep=15pt}
+        \setchemfig{fixed length=true}
+        \setchemfig{arrow coeff=0.8}
+
+        \schemestart
+            \chemfig{CH_2=CH-CH=CH_2}
+            \+{12pt,10pt,1pt}
+            \ce{Br_2}
+            ~~~~~\arrow(foo.mid east--bar.mid west){->}~~~~
+            \chemfig{CH_2(-[6]Br)-CH=CH-CH_2(-[6]Br)}
+        \schemestop
+    \end{center}\vspace{10pt}
     异戊二烯可以通过聚合反应生成聚异戊二烯：\vspace{5pt}
     \begin{center}
         \setchemfig{atom sep=15pt}
@@ -2508,10 +2537,6 @@
             \chemfig{\text{\big[}-CH_2-C(-[6]CH_3)=CH-CH_2-\text{\big]$_n$}}
         \schemestop
     \end{center}\vspace{10pt}
-    反应生成的聚异戊二烯实际上就是天然橡胶的主要成分。\\[8mm]
-    累积二烯烃：二烯烃中的两个双键间隔的单键数目$=0$\\[3mm]
-    共轭二烯烃：二烯烃中的两个双键间隔的单键数目$=1$\\[3mm]
-    隔离二烯烃：二烯烃中的两个双键间隔的单键数目$\ge 2$
 
 \newpage
 
@@ -3383,6 +3408,40 @@
     乙醛和银氨溶液的氧化反应，所生成的银均匀的镀在试管上，故该反应常用来检测乙醛和镀银。\\[3mm]
     其中后者由于形成的镀银十分光亮形如镜子，因此也被称为银镜反应。\\
 
+\subsubsection{醛类}
+    以下列出了一些常见的醛：\vspace{8pt}
+    \begin{center}
+        \chemnameinit{\chemfig{H-C(-[2]H)(-[6]H)-C(-[2]H)(-[6]H)-OH}}
+        \setchemfig{atom sep=15pt}
+        \setchemfig{fixed length=true}
+        \chemname[5pt]
+        {
+            \chemfig
+            {
+                H-C(=[2]O)-H
+            }
+        }{甲醛}\qquad\quad
+        \chemname[5pt]
+        {
+            \chemfig
+            {
+                H-C(-[2]H)(-[6]H)-C(=[2]O)-H
+            }
+        }{乙醛}\qquad\quad
+        \chemname[5pt]
+        {
+            \chemfig
+            {
+                H-C(-[2]H)(-[6]H)-C(-[2]H)(-[6]H)-C(=[2]O)-H
+            }
+        }{丙醛}
+    \end{center}\vspace{10pt}
+    甲醛为无色具有刺激性气味的气体，甲醛俗称蚁醛。\\[3mm]
+    乙醛为无色具有刺激性气味的液体，乙醛俗称醋醛。\\[3mm]
+    甲醇的水溶液称为福尔马林，福尔马林具有杀菌和防腐功能，常用作消毒剂和浸泡生物标本。
+
+\newpage
+
 \subsubsection{丙酮}
     丙酮（\ce{C3H6O}）是一种酮，结构式为：
     \begin{center}
@@ -3417,41 +3476,7 @@
         \schemestop
     \end{center}\vspace{10pt}
     丙酮的还原性相较乙醛弱的多，无法和氢氧化铜发生氧化反应，无法和银氨溶液发生氧化反应，
-    利用醛易被氧化而酮不易被氧化的性质可以区分醛和酮。
-
-\newpage
-
-\subsubsection{醛类}
-    以下列出了一些常见的醛：\vspace{8pt}
-    \begin{center}
-        \chemnameinit{\chemfig{H-C(-[2]H)(-[6]H)-C(-[2]H)(-[6]H)-OH}}
-        \setchemfig{atom sep=15pt}
-        \setchemfig{fixed length=true}
-        \chemname[5pt]
-        {
-            \chemfig
-            {
-                H-C(=[2]O)-H
-            }
-        }{甲醛}\qquad\quad
-        \chemname[5pt]
-        {
-            \chemfig
-            {
-                H-C(-[2]H)(-[6]H)-C(=[2]O)-H
-            }
-        }{乙醛}\qquad\quad
-        \chemname[5pt]
-        {
-            \chemfig
-            {
-                H-C(-[2]H)(-[6]H)-C(-[2]H)(-[6]H)-C(=[2]O)-H
-            }
-        }{丙醛}
-    \end{center}\vspace{10pt}
-    甲醛为无色具有刺激性气味的气体，甲醛俗称蚁醛。\\[3mm]
-    乙醛为无色具有刺激性气味的液体，乙醛俗称醋醛。\\[3mm]
-    甲醇的水溶液称为福尔马林，福尔马林具有杀菌和防腐功能，常用作消毒剂和浸泡生物标本。
+    利用醛易被氧化而酮不易被氧化的性质可以区分醛和酮。\\
 
 \subsubsection{酮类}
     以下列出了一些常见的酮：\vspace{8pt}
@@ -3639,6 +3664,5 @@
     甲酸和乙醇反应，得到的酯称为甲酸乙酯。\\[3mm]
     乙酸和甲醇反应，得到的酯称为乙酸甲酯。\\[3mm]
     乙酸和乙醇反应，得到的酯称为乙酸乙酯。
-
 
 \end{document}
