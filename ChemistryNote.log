@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2019.7.21)  31 MAR 2020 22:43
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2019.7.21)  1 APR 2020 11:12
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1410,22 +1410,22 @@ Package chemfig Warning: two names for the same node, first name "c2" ignored
 Package chemfig Warning: two names for the same node, first name "c3" ignored
 
  [58] [59] [60] [61] [62] [63]
-Overfull \hbox (18.41469pt too wide) in paragraph at lines 3402--3403
+Overfull \hbox (18.41469pt too wide) in paragraph at lines 3415--3416
  [] 
  []
 
 [64]
-Underfull \hbox (badness 10000) in paragraph at lines 3407--3410
+Underfull \hbox (badness 10000) in paragraph at lines 3420--3423
 
  []
 
 [65]
-Underfull \hbox (badness 10000) in paragraph at lines 3478--3480
+Underfull \hbox (badness 10000) in paragraph at lines 3491--3493
 
  []
 
 [66]
-Overfull \hbox (13.14543pt too wide) in paragraph at lines 3577--3578
+Overfull \hbox (13.14543pt too wide) in paragraph at lines 3590--3591
  [] 
  []
 
@@ -1439,10 +1439,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 33380 strings out of 492922
- 751872 string characters out of 6136751
- 998771 words of memory out of 5000000
- 36957 multiletter control sequences out of 15000+600000
+ 33386 strings out of 492922
+ 752005 string characters out of 6136751
+ 998906 words of memory out of 5000000
+ 36963 multiletter control sequences out of 15000+600000
  538999 words of font info for 98 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  62i,22n,98p,477b,1414s stack positions out of 5000i,500n,10000p,200000b,80000s

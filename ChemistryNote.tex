@@ -2525,7 +2525,19 @@
             \chemfig{CH_2(-[6]Br)-CH=CH-CH_2(-[6]Br)}
         \schemestop
     \end{center}\vspace{10pt}
-    异戊二烯可以通过聚合反应生成聚异戊二烯：\vspace{5pt}
+    通过以下聚合反应可以生成顺丁橡胶：\vspace{5pt}
+    \begin{center}
+        \setchemfig{atom sep=15pt}
+        \setchemfig{fixed length=true}
+        \setchemfig{arrow coeff=0.8}
+
+        \schemestart
+            \chemfig{nCH_2=CH-CH=CH_2}
+            ~~~~~\arrow(foo.mid east--bar.mid west){->[\footnotesize 催化剂]}~~~~
+            \chemfig{\text{\big[}-CH_2-CH=CH-CH_2-\text{\big]$_n$}}
+        \schemestop
+    \end{center}\vspace{20pt}
+    通过以下聚合反应可以生成异戊橡胶：\vspace{5pt}
     \begin{center}
         \setchemfig{atom sep=15pt}
         \setchemfig{fixed length=true}
@@ -2537,6 +2549,7 @@
             \chemfig{\text{\big[}-CH_2-C(-[6]CH_3)=CH-CH_2-\text{\big]$_n$}}
         \schemestop
     \end{center}\vspace{10pt}
+    产生的异戊橡胶实际上就是天然橡胶。
 
 \newpage
 
