@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2019.7.21)  9 APR 2020 09:34
+This is XeTeX, Version 3.14159265-2.6-0.999991 (TeX Live 2019/W32TeX) (preloaded format=xelatex 2019.7.21)  10 MAY 2020 15:18
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1184,7 +1184,7 @@ Package fontspec Info: Font family 'TimesNewRoman(0)' created for font 'Times
 (fontspec)             <->"Times New
 (fontspec)             Roman/BI/OT:script=latn;language=DFLT;+smcp;mapping=tex-text;"
 
-LaTeX Info: Redefining \rmfamily on input line 24.
+LaTeX Info: Redefining \rmfamily on input line 26.
 
 
 Package xeCJK Warning: Redefining CJKfamily `\CJKrmdefault' (SimSun(0)).
@@ -1223,82 +1223,82 @@ Package: xeCJK-listings 2019/04/07 v3.7.2 xeCJK patch file for listings
 ) (./ChemistryNote.aux)
 \openout1 = `ChemistryNote.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 46.
-LaTeX Font Info:    ... okay on input line 46.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 48.
+LaTeX Font Info:    ... okay on input line 48.
  ABD: EverySelectfont initializing macros
-LaTeX Info: Redefining \selectfont on input line 46.
+LaTeX Info: Redefining \selectfont on input line 48.
 
 Package fontspec Info: Adjusting the maths setup (use [no-math] to avoid
 (fontspec)             this).
 
 \symlegacymaths=\mathgroup4
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 46.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 46.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 46.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 46.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 46.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 46.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 46.
-LaTeX Font Info:    Redeclaring math accent \check on input line 46.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 46.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 46.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 46.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 46.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 46.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 46.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 46.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 46.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 46.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 46.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 46.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 46.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 46.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 46.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 46.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 46.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 48.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 48.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 48.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 48.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 48.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 48.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 48.
+LaTeX Font Info:    Redeclaring math accent \check on input line 48.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 48.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 48.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 48.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 48.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 48.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 48.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 48.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 48.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 48.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 48.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 48.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 48.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 48.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 48.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 48.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 48.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 46.
+(Font)              `operators' in the math version `normal' on input line 48.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/TimesNewRoman(0)/m/n on input line 46.
+(Font)                  OT1/cmr/m/n --> TU/TimesNewRoman(0)/m/n on input line 48.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 46.
+(Font)              `operators' in the math version `bold' on input line 48.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/m/n on input line 46.
+(Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/m/n on input line 48.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/m/n on input line 46.
+(Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/m/n on input line 48.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/TimesNewRoman(0)/m/it on input line 46.
+(Font)                  OT1/cmr/m/it --> TU/TimesNewRoman(0)/m/it on input line 48.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/bx/n on input line 46.
+(Font)                  OT1/cmr/bx/n --> TU/TimesNewRoman(0)/bx/n on input line 48.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 46.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 48.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 46.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 48.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/bx/n on input line 46.
+(Font)                  TU/TimesNewRoman(0)/m/n --> TU/TimesNewRoman(0)/bx/n on input line 48.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/TimesNewRoman(0)/bx/it on input line 46.
+(Font)                  OT1/cmr/bx/it --> TU/TimesNewRoman(0)/bx/it on input line 48.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/bx/n on input line 46.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/bx/n on input line 48.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/bx/n on input line 46.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/bx/n on input line 48.
 
-Package chemgreek Info: Activating mapping `fontspec' on line 46.
+Package chemgreek Info: Activating mapping `fontspec' on line 48.
 
  ABD: EveryShipout initializing macros
 *geometry* driver: auto-detecting
@@ -1343,120 +1343,100 @@ Package chemgreek Info: Activating mapping `fontspec' on line 46.
 LaTeX Font Warning: Font shape `OMX/cmex/m/n' in size <10.53937> not available
 (Font)              size <10.95> substituted on input line 2.
 
-LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/sl' in size <10.53937> not available
-(Font)              Font shape `TU/TimesNewRoman(0)/m/it' tried instead on input line 39.
-
-LaTeX Font Warning: Font shape `TU/等线(0)/m/sl' undefined
-(Font)              using `TU/等线(0)/m/n' instead on input line 39.
-
-[2] [3])
+)
 \tf@toc=\write4
 \openout4 = `ChemistryNote.toc'.
 
- [4]
-Underfull \hbox (badness 10000) in paragraph at lines 89--92
+LaTeX Font Info:    Font shape `TU/TimesNewRoman(0)/m/sl' in size <10.53937> not available
+(Font)              Font shape `TU/TimesNewRoman(0)/m/it' tried instead on input line 55.
+
+
+LaTeX Font Warning: Font shape `TU/等线(0)/m/sl' undefined
+(Font)              using `TU/等线(0)/m/n' instead on input line 55.
+
+[2] [3]
+Underfull \hbox (badness 10000) in paragraph at lines 2050--2051
 
  []
 
-[5]
-Underfull \hbox (badness 10000) in paragraph at lines 119--121
+
+Underfull \hbox (badness 10000) in paragraph at lines 2053--2070
 
  []
 
-[6] [7]
-Underfull \hbox (badness 10000) in paragraph at lines 229--243
+[4] [5]
+Underfull \hbox (badness 10000) in paragraph at lines 2172--2178
 
  []
 
+[6] [7] [8] [9] [10] [11] [12] [13] [14] [15] [16] [17]
+Package chemfig Warning: two names for the same node, first name "c2" ignored
 
-Overfull \hbox (35.95476pt too wide) in paragraph at lines 248--254
+Package chemfig Warning: two names for the same node, first name "c2" ignored
+
+ [18]
+Package chemfig Warning: two names for the same node, first name "c2" ignored
+
+Package chemfig Warning: two names for the same node, first name "c3" ignored
+
+Package chemfig Warning: two names for the same node, first name "c2" ignored
+
+Package chemfig Warning: two names for the same node, first name "c3" ignored
+
+ [19]
+Package chemfig Warning: two names for the same node, first name "c2" ignored
+
+Package chemfig Warning: two names for the same node, first name "c3" ignored
+
+Package chemfig Warning: two names for the same node, first name "c2" ignored
+
+Package chemfig Warning: two names for the same node, first name "c3" ignored
+
+ [20]
+Package chemfig Warning: two names for the same node, first name "c2" ignored
+
+Package chemfig Warning: two names for the same node, first name "c3" ignored
+
+Package chemfig Warning: two names for the same node, first name "c2" ignored
+
+Package chemfig Warning: two names for the same node, first name "c3" ignored
+
+Package chemfig Warning: two names for the same node, first name "c2" ignored
+
+Package chemfig Warning: two names for the same node, first name "c3" ignored
+
+ [21]
+Package chemfig Warning: two names for the same node, first name "c2" ignored
+
+Package chemfig Warning: two names for the same node, first name "c3" ignored
+
+Package chemfig Warning: two names for the same node, first name "c2" ignored
+
+Package chemfig Warning: two names for the same node, first name "c3" ignored
+
+ [22]
+Package chemfig Warning: two names for the same node, first name "c2" ignored
+
+Package chemfig Warning: two names for the same node, first name "c2" ignored
+
+Package chemfig Warning: two names for the same node, first name "c3" ignored
+
+Package chemfig Warning: two names for the same node, first name "c4" ignored
+
+Package chemfig Warning: two names for the same node, first name "c2" ignored
+
+Package chemfig Warning: two names for the same node, first name "c2" ignored
+
+Package chemfig Warning: two names for the same node, first name "c3" ignored
+
+Package chemfig Warning: two names for the same node, first name "c4" ignored
+
+
+Overfull \hbox (38.15208pt too wide) in paragraph at lines 3247--3248
  [] 
  []
 
-[8]
-Underfull \hbox (badness 10000) in paragraph at lines 310--315
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 316--321
-
- []
-
-[9]
-Underfull \hbox (badness 10000) in paragraph at lines 331--341
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 343--368
-
- []
-
-[10] [11] [12] [13] [14] [15] [16] [17] [18] [19] [20] [21] [22] [23] [24] [25]
-Underfull \hbox (badness 10000) in paragraph at lines 1091--1092
-
- []
-
-[26] [27] [28] [29] [30] [31] [32] [33]
-Underfull \hbox (badness 10000) in paragraph at lines 1477--1478
-
- []
-
-[34] [35] [36] [37]
-Underfull \hbox (badness 10000) in paragraph at lines 1661--1664
-
- []
-
-[38]
-Underfull \hbox (badness 10000) in paragraph at lines 1689--1696
-
- []
-
-[39] [40] [41] [42] [43] [44] [45] [46] [47] [48] [49] [50] [51] [52] [53] [54] [55]
-Package chemfig Warning: two names for the same node, first name "c2" ignored
-
-Package chemfig Warning: two names for the same node, first name "c3" ignored
-
-Package chemfig Warning: two names for the same node, first name "c2" ignored
-
-Package chemfig Warning: two names for the same node, first name "c3" ignored
-
-Package chemfig Warning: two names for the same node, first name "c2" ignored
-
-Package chemfig Warning: two names for the same node, first name "c3" ignored
-
- [56]
-Package chemfig Warning: two names for the same node, first name "c2" ignored
-
-Package chemfig Warning: two names for the same node, first name "c2" ignored
-
- [57]
-Package chemfig Warning: two names for the same node, first name "c2" ignored
-
-Package chemfig Warning: two names for the same node, first name "c3" ignored
-
- [58] [59] [60] [61] [62] [63]
-Overfull \hbox (18.41469pt too wide) in paragraph at lines 3417--3418
- [] 
- []
-
-[64]
-Underfull \hbox (badness 10000) in paragraph at lines 3422--3425
-
- []
-
-[65]
-Underfull \hbox (badness 10000) in paragraph at lines 3493--3495
-
- []
-
-[66]
-Overfull \hbox (13.14543pt too wide) in paragraph at lines 3592--3593
- [] 
- []
-
-[67] [68] [69] (./ChemistryNote.aux)
+[23] [24] [25] [26] [27] [28] [29] [30] (./ChemistryNote.aux)
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 0.41063pt have occurred.
@@ -1464,17 +1444,14 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
  ) 
 Here is how much of TeX's memory you used:
- 34597 strings out of 492922
- 770480 string characters out of 6136751
- 1020005 words of memory out of 5000000
- 38159 multiletter control sequences out of 15000+600000
+ 34587 strings out of 492922
+ 768096 string characters out of 6136751
+ 1001592 words of memory out of 5000000
+ 38149 multiletter control sequences out of 15000+600000
  538999 words of font info for 98 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 62i,22n,98p,477b,1414s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 62i,18n,98p,477b,1414s stack positions out of 5000i,500n,10000p,200000b,80000s
 
-Output written on ChemistryNote.pdf (69 pages).
+Output written on ChemistryNote.pdf (30 pages).
