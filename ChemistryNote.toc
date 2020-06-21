@@ -1,17 +1,115 @@
-\contentsline {section}{\numberline {1}醇\nobreakspace {}\nobreakspace {}醛\nobreakspace {}\nobreakspace {}酸}{3}% 
-\contentsline {subsection}{\numberline {1.1}醇\nobreakspace {}\nobreakspace {}醚}{3}% 
-\contentsline {subsubsection}{\numberline {1.1.1}乙醇}{3}% 
-\contentsline {subsubsection}{\numberline {1.1.2}醇类}{6}% 
-\contentsline {subsubsection}{\numberline {1.1.3}醚类}{8}% 
-\contentsline {subsubsection}{\numberline {1.1.4}苯酚}{9}% 
-\contentsline {subsubsection}{\numberline {1.1.5}酚类}{10}% 
-\contentsline {subsection}{\numberline {1.2}醛\nobreakspace {}\nobreakspace {}酮}{11}% 
-\contentsline {subsubsection}{\numberline {1.2.1}乙醛}{11}% 
-\contentsline {subsubsection}{\numberline {1.2.2}醛类}{14}% 
-\contentsline {subsubsection}{\numberline {1.2.3}丙酮}{16}% 
-\contentsline {subsubsection}{\numberline {1.2.4}酮类}{16}% 
-\contentsline {subsection}{\numberline {1.3}酸\nobreakspace {}\nobreakspace {}酯}{18}% 
-\contentsline {subsubsection}{\numberline {1.3.1}乙酸}{18}% 
-\contentsline {subsubsection}{\numberline {1.3.2}酸类}{20}% 
-\contentsline {subsubsection}{\numberline {1.3.3}乙酸乙酯}{22}% 
-\contentsline {subsubsection}{\numberline {1.3.4}酯类}{23}% 
+\contentsline {section}{\numberline {1}物质结构}{6}% 
+\contentsline {subsection}{\numberline {1.1}原子结构}{6}% 
+\contentsline {subsubsection}{\numberline {1.1.1}原子核的稳定性}{6}% 
+\contentsline {subsubsection}{\numberline {1.1.2}原子核的衰变}{7}% 
+\contentsline {paragraph}{$\alpha $衰变}{7}% 
+\contentsline {paragraph}{$\beta $衰变}{7}% 
+\contentsline {subsection}{\numberline {1.2}原子核外电子排布}{7}% 
+\contentsline {subsection}{\numberline {1.3}元素周期表}{9}% 
+\contentsline {subsubsection}{\numberline {1.3.1}元素的金属性和非金属性}{9}% 
+\contentsline {subsubsection}{\numberline {1.3.2}元素周期表中金属性和非金属性的规律}{10}% 
+\contentsline {subsection}{\numberline {1.4}电负性}{10}% 
+\contentsline {subsubsection}{\numberline {1.4.1}电负性和化学键}{10}% 
+\contentsline {subsection}{\numberline {1.5}离子键}{11}% 
+\contentsline {subsection}{\numberline {1.6}共价键}{11}% 
+\contentsline {subsection}{\numberline {1.7}金属键}{11}% 
+\contentsline {subsection}{\numberline {1.8}晶体}{12}% 
+\contentsline {subsubsection}{\numberline {1.8.1}离子晶体}{12}% 
+\contentsline {subsubsection}{\numberline {1.8.2}原子晶体}{12}% 
+\contentsline {subsubsection}{\numberline {1.8.3}分子晶体}{12}% 
+\contentsline {subsubsection}{\numberline {1.8.4}金属晶体}{13}% 
+\contentsline {subsubsection}{\numberline {1.8.5}石墨的特殊晶体结构}{13}% 
+\contentsline {section}{\numberline {2}氟\nobreakspace {}\nobreakspace {}氯}{14}% 
+\contentsline {subsection}{\numberline {2.1}氯}{14}% 
+\contentsline {subsubsection}{\numberline {2.1.1}盐酸}{15}% 
+\contentsline {subsection}{\numberline {2.2}卤族元素}{16}% 
+\contentsline {section}{\numberline {3}氧\nobreakspace {}\nobreakspace {}硫}{17}% 
+\contentsline {subsection}{\numberline {3.1}硫}{17}% 
+\contentsline {subsubsection}{\numberline {3.1.1}硫的氢化物}{18}% 
+\contentsline {subsubsection}{\numberline {3.1.2}硫的氧化物}{19}% 
+\contentsline {subsubsection}{\numberline {3.1.3}硫酸}{20}% 
+\contentsline {section}{\numberline {4}氮\nobreakspace {}\nobreakspace {}磷}{24}% 
+\contentsline {subsection}{\numberline {4.1}氮}{24}% 
+\contentsline {subsubsection}{\numberline {4.1.1}氮的氢化物}{24}% 
+\contentsline {subsubsection}{\numberline {4.1.2}氮的氧化物}{26}% 
+\contentsline {subsubsection}{\numberline {4.1.3}硝酸}{27}% 
+\contentsline {section}{\numberline {5}铁\nobreakspace {}\nobreakspace {}铜}{29}% 
+\contentsline {subsection}{\numberline {5.1}铁}{29}% 
+\contentsline {subsubsection}{\numberline {5.1.1}铁的氧化物}{29}% 
+\contentsline {subsubsection}{\numberline {5.1.2}铁的氢氧化物}{30}% 
+\contentsline {subsubsection}{\numberline {5.1.3}铁离子与亚铁离子}{31}% 
+\contentsline {subsection}{\numberline {5.2}铜}{32}% 
+\contentsline {subsubsection}{\numberline {5.2.1}铜的氧化物}{32}% 
+\contentsline {subsubsection}{\numberline {5.2.2}铜离子和亚铜离子}{32}% 
+\contentsline {section}{\numberline {6}镁\nobreakspace {}\nobreakspace {}铝}{33}% 
+\contentsline {subsection}{\numberline {6.1}铝}{33}% 
+\contentsline {subsubsection}{\numberline {6.1.1}铝的氧化物}{34}% 
+\contentsline {subsubsection}{\numberline {6.1.2}铝的氢氧化物}{34}% 
+\contentsline {subsubsection}{\numberline {6.1.3}铝盐和偏铝酸盐}{34}% 
+\contentsline {subsection}{\numberline {6.2}镁}{35}% 
+\contentsline {section}{\numberline {7}电离和水解}{36}% 
+\contentsline {subsection}{\numberline {7.1}电离}{36}% 
+\contentsline {subsubsection}{\numberline {7.1.1}水的电离}{36}% 
+\contentsline {subsubsection}{\numberline {7.1.2}强酸的电离}{36}% 
+\contentsline {subsubsection}{\numberline {7.1.3}弱酸的电离}{36}% 
+\contentsline {subsubsection}{\numberline {7.1.4}强碱的电离}{37}% 
+\contentsline {subsubsection}{\numberline {7.1.5}弱碱的电离}{37}% 
+\contentsline {subsubsection}{\numberline {7.1.6}正盐的电离}{37}% 
+\contentsline {subsubsection}{\numberline {7.1.7}酸式盐的电离}{37}% 
+\contentsline {subsubsection}{\numberline {7.1.8}电离度和电离常数}{38}% 
+\contentsline {subsection}{\numberline {7.2}离子反应}{39}% 
+\contentsline {subsubsection}{\numberline {7.2.1}离子反应的规律}{40}% 
+\contentsline {subsection}{\numberline {7.3}酸碱度}{40}% 
+\contentsline {subsection}{\numberline {7.4}水解}{43}% 
+\contentsline {subsubsection}{\numberline {7.4.1}强酸强碱盐的水解}{43}% 
+\contentsline {subsubsection}{\numberline {7.4.2}强酸弱碱盐的水解}{43}% 
+\contentsline {subsubsection}{\numberline {7.4.3}弱酸强碱盐的水解}{43}% 
+\contentsline {subsubsection}{\numberline {7.4.4}弱酸弱碱盐的水解}{43}% 
+\contentsline {subsubsection}{\numberline {7.4.5}强酸酸式盐的水解}{44}% 
+\contentsline {subsubsection}{\numberline {7.4.6}弱酸酸式盐的水解}{44}% 
+\contentsline {section}{\numberline {8}电化学}{45}% 
+\contentsline {subsection}{\numberline {8.1}原电池}{45}% 
+\contentsline {subsection}{\numberline {8.2}电解池}{46}% 
+\contentsline {section}{\numberline {9}烷\nobreakspace {}\nobreakspace {}烯\nobreakspace {}\nobreakspace {}炔}{47}% 
+\contentsline {subsection}{\numberline {9.1}有机物}{47}% 
+\contentsline {subsubsection}{\numberline {9.1.1}有机物的突破}{47}% 
+\contentsline {subsubsection}{\numberline {9.1.2}有机物的特点}{47}% 
+\contentsline {subsubsection}{\numberline {9.1.3}有机物的燃烧通式}{48}% 
+\contentsline {subsubsection}{\numberline {9.1.4}有机物的不饱和度}{48}% 
+\contentsline {subsubsection}{\numberline {9.1.5}有机物中碳原子的级}{49}% 
+\contentsline {subsubsection}{\numberline {9.1.6}有机物中氢原子的级}{49}% 
+\contentsline {subsection}{\numberline {9.2}烷}{50}% 
+\contentsline {subsubsection}{\numberline {9.2.1}甲烷}{50}% 
+\contentsline {subsubsection}{\numberline {9.2.2}烷烃}{52}% 
+\contentsline {subsubsection}{\numberline {9.2.3}环烷烃}{54}% 
+\contentsline {subsection}{\numberline {9.3}烯}{55}% 
+\contentsline {subsubsection}{\numberline {9.3.1}乙烯}{55}% 
+\contentsline {subsubsection}{\numberline {9.3.2}烯烃}{57}% 
+\contentsline {subsubsection}{\numberline {9.3.3}丁二烯}{58}% 
+\contentsline {subsubsection}{\numberline {9.3.4}二烯烃}{59}% 
+\contentsline {subsection}{\numberline {9.4}炔}{60}% 
+\contentsline {subsubsection}{\numberline {9.4.1}乙炔}{60}% 
+\contentsline {subsubsection}{\numberline {9.4.2}炔烃}{62}% 
+\contentsline {subsection}{\numberline {9.5}芳香烃}{63}% 
+\contentsline {subsubsection}{\numberline {9.5.1}苯}{63}% 
+\contentsline {subsubsection}{\numberline {9.5.2}单环芳烃}{69}% 
+\contentsline {subsubsection}{\numberline {9.5.3}稠环芳烃}{71}% 
+\contentsline {section}{\numberline {10}醇\nobreakspace {}\nobreakspace {}醛\nobreakspace {}\nobreakspace {}酸}{72}% 
+\contentsline {subsection}{\numberline {10.1}卤代烃}{72}% 
+\contentsline {subsubsection}{\numberline {10.1.1}卤代烃}{72}% 
+\contentsline {subsection}{\numberline {10.2}醇\nobreakspace {}\nobreakspace {}醚}{74}% 
+\contentsline {subsubsection}{\numberline {10.2.1}乙醇}{74}% 
+\contentsline {subsubsection}{\numberline {10.2.2}醇类}{77}% 
+\contentsline {subsubsection}{\numberline {10.2.3}醚类}{79}% 
+\contentsline {subsubsection}{\numberline {10.2.4}苯酚}{80}% 
+\contentsline {subsubsection}{\numberline {10.2.5}酚类}{81}% 
+\contentsline {subsection}{\numberline {10.3}醛\nobreakspace {}\nobreakspace {}酮}{82}% 
+\contentsline {subsubsection}{\numberline {10.3.1}乙醛}{82}% 
+\contentsline {subsubsection}{\numberline {10.3.2}醛类}{85}% 
+\contentsline {subsubsection}{\numberline {10.3.3}丙酮}{87}% 
+\contentsline {subsubsection}{\numberline {10.3.4}酮类}{87}% 
+\contentsline {subsection}{\numberline {10.4}酸\nobreakspace {}\nobreakspace {}酯}{89}% 
+\contentsline {subsubsection}{\numberline {10.4.1}乙酸}{89}% 
+\contentsline {subsubsection}{\numberline {10.4.2}酸类}{91}% 
+\contentsline {subsubsection}{\numberline {10.4.3}乙酸乙酯}{93}% 
+\contentsline {subsubsection}{\numberline {10.4.4}酯类}{94}% 
