@@ -1663,8 +1663,8 @@
 \subsection{一氧化氮}
     一氧化氮，无色无味的气体，密度$1.34$\ce{g/L}，熔点$-164$\si{\degreeCelsius}，沸点$-152$\si{\degreeCelsius}。\\[3mm]
     一氧化氮有毒，其与人体血红蛋白的结合能力强于氧气，导致血红蛋白丧失输氧能力。\\[3mm]
-    一氧化氮微溶于水，常温下$1$体积的水可以溶解$0.05$体积的一氧化氮。\\[3mm]
-    一氧化氮不与水发生反应，一氧化氮是一种不成盐的氧化物。
+    一氧化氮微溶于水，一氧化氮也不会与水发生反应。\\[3mm]
+    一氧化氮是一种不成盐的氧化物。
 
 \subsubsection{一氧化氮和氧气的反应}
     一氧化氮极易被氧化生成二氧化氮：
@@ -1678,7 +1678,137 @@
     一氧化氮由于极易被氧气所氧化，因此空气中的一氧化氮会迅速转变为二氧化氮。
 
 \subsection{二氧化氮}
-    二氧化氮，红棕色刺激性气味的气体，密度
+    二氧化氮，红棕色刺激性气味的气体，密度$1.88$\si{g/L}，熔点$-11$\si{\degreeCelsius}，沸点$21$\si{\degreeCelsius}。\\[3mm]
+    二氧化氮有毒，吸入人体后对肺组织有强烈的刺激性和腐蚀性。\\[3mm]
+    二氧化氮易溶于水，二氧化氮同时会与水发生反应。
+
+\subsubsection{二氧化氮和水的反应}
+    二氧化氮可以和水反应，生成硝酸和一氧化氮：
+    \begin{center}
+        \ce{3NO2 + H2O  -> 2HNO3 + NO}\\[6mm]
+    \end{center}
+    该反应是一个歧化反应：
+    \begin{center}
+        \begin{tikzpicture}
+            \node at(0,0){\ce{3$\LiValence{+}{4}{N}$O2 + H2O  -> 2H$\LiValence{+}{5}{N}$O3 + $\LiValence{+}{2}{N}$O}};
+            \LiDrawContainer[->]{(-2.12,+0.4)}{(1.07,+0.4)}{+0.3}{+0.3}{\small 失去~\si{2e}};
+            \LiDrawContainer[->]{(-2.12,-0.4)}{(2.0,-0.4)}{-0.3}{-0.3}{\small 得到~\si{e}};
+        \end{tikzpicture}
+    \end{center}
+    在该反应中，两份~\ce{$\LiValence{+}{4}{N}$O2}被氧化为两份~\ce{H$\LiValence{+}{5}{N}$O3}，一份~\ce{$\LiValence{+}{4}{N}$O2}被还原为一份~\ce{$\LiValence{+}{2}{N}$O}。
+
+\newpage
+
+\subsubsection{二氧化氮和碱的反应}
+    二氧化氮可以直接和氢氧化钠反应，生成硝酸钠亚硝酸钠：
+    \begin{center}
+        \ce{2NaOH + 2NO2 -> NaNO3 + NaNO2 + H2O}\\[4mm]
+    \end{center}
+    二氧化氮和一氧化氮可以和氢氧化钠反应，生成亚硝酸钠：
+    \begin{center}
+        \ce{2NaOH + NO2 + NO -> 2NaNO2 + H2O}\\[4mm]
+    \end{center}
+    第一个反应为歧化反应：
+    \begin{center}
+        \begin{tikzpicture}
+            \node at(0,0){\ce{2NaOH + 2$\LiValence{+}{4}{N}$O2 -> Na$\LiValence{+}{5}{N}$O3 + Na$\LiValence{+}{3}{N}$O2 + H2O}};
+            \LiDrawContainer[->]{(-1.6,+0.4)}{(0.46,+0.4)}{+0.3}{+0.3}{\small 失去~\si{e}};
+            \LiDrawContainer[->]{(-1.6,-0.4)}{(1.95,-0.4)}{-0.3}{-0.3}{\small 得到~\si{e}};
+        \end{tikzpicture}
+    \end{center}
+    第一个反应中，一份~\ce{$\LiValence{+}{4}{N}$O2}被氧化为一份~\ce{Na$\LiValence{+}{5}{N}$O3}，一份~\ce{$\LiValence{+}{4}{N}$O2}被还原为一份~\ce{Na$\LiValence{+}{3}{N}$O2}。\\[6mm]
+    第二个反应为归中反应：
+    \begin{center}
+        \begin{tikzpicture}
+            \node at(0,0){\ce{2NaOH + $\LiValence{+}{4}{N}$O2 + $\LiValence{+}{2}{N}$O -> 2Na$\LiValence{+}{3}{N}$O2 + H2O}};
+            \LiDrawContainer[->]{(-0.45,+0.4)}{(1.68,+0.4)}{+0.3}{+0.3}{\small 失去~\si{e}};
+            \LiDrawContainer[->]{(-1.55,-0.4)}{(1.68,-0.4)}{-0.3}{-0.3}{\small 得到~\si{e}};
+        \end{tikzpicture}
+    \end{center}
+    在第二个反应中，一份~\ce{$\LiValence{+}{2}{N}$O_{\hphantom{2}}}被氧化为一份~\ce{Na$\LiValence{+}{3}{N}$O2}，一份~\ce{$\LiValence{+}{4}{N}$O2}被还原为一份~\ce{Na$\LiValence{+}{3}{N}$O2}。
+
+\subsubsection{二氧化氮的聚合和分解}
+    常温下二氧化氮和四氧化二氮存在以下平衡：
+    \begin{center}
+        \ce{2NO2 <=> N2O4}\\[4mm]
+    \end{center}
+    该反应的正反应为放热反应，该反应的逆反应为吸热反应。\\[3mm]
+    该反应中，二氧化氮为红棕色，四氧化二氮为无色，故发生平衡移动时能观察到颜色的变化。\\[5mm]
+    不同温度下二氧化氮的状态如下：\vspace{5pt}
+    \begin{table}[h!]
+        \begin{center}
+            \begin{tabular}{p{80pt}|p{140pt}}
+                \hline
+                在$-10$\si{\degreeCelsius}以下&完全以四氧化二氮的形态存在\\ \hline
+                在$+140$\si{\degreeCelsius}以上&完全以二氧化氮的形态存在\\ \hline
+                在$+150$\si{\degreeCelsius}以上&分解为一氧化氮和氧气\\ \hline
+            \end{tabular}
+            \caption{不同温度下二氧化氮的状态}
+        \end{center}
+    \end{table}\\
+    需要指出的是，在$-10$\si{\degreeCelsius}以下时，四氧化二氮为无色晶体。
+
+\newpage
+
+\subsection{氮的其他氧化物}
+    氮和氧可以形成多种不同的氮氧化物：\vspace{5pt}
+    \begin{table}[h]
+        \begin{center}
+            \begin{tabular}{p{60pt}|p{80pt}|p{60pt}}
+                \hline
+                \ce{N2O}&一氧化二氮&$+1$价\\ \hline
+                \ce{NO}&一氧化氮&$+2$价\\ \hline
+                \ce{NO2}&二氧化氮&$+4$价\\ \hline
+                \ce{N2O3}&三氧化二氮&$+3$价\\ \hline
+                \ce{N2O4}&四氧化二氮&$+4$价\\ \hline
+                \ce{N2O5}&五氧化二氮&$+5$价\\ \hline
+            \end{tabular}
+            \caption{氮的氧化物}
+        \end{center}
+    \end{table}\\
+    氮和氧结合时，氮可以表现出$+1$至$+5$的所有化合价，因此氮的氧化物十分多样。\\[3mm]
+    氮的氧化物中较为重要的为一氧化氮和二氧化氮。
+
+\subsubsection{三氧化二氮}
+    三氧化二氮，蓝色液体，密度$1.40$\si{g/cm^3}，熔点$-100$\si{\degreeCelsius}，沸点$3$\si{\degreeCelsius}。\\[3mm]
+    三氧化二氮不稳定，常温下自然分解为二氧化氮和一氧化氮。\\[3mm]
+    三氧化二氮可以由二氧化氮和一氧化氮，在低温下反应生成：
+    \begin{center}
+        \ce{NO2 + NO <=>T[$-20$\si{\degreeCelsius}] N2O3}\\[5mm]
+    \end{center}
+    三氧化二氮溶于水后会反应生成亚硝酸：
+    \begin{center}
+        \ce{N2O3 + H2O -> 2NO2}\\[5mm]
+    \end{center}
+    三氧化二氮溶于水产生亚硝酸，因此三氧化二氮是亚硝酸的酸酐。
+
+\subsubsection{五氧化二氮}
+    五氧化二氮，白色固体，密度$2.05$\si{g/cm^3}，熔沸点无意义，在$10$\si{\degreeCelsius}时升华分解。\\[3mm]
+    五氧化二氮不稳定，常温下自然分解为二氧化氮和氧气。\\[3mm]
+    五氧化二氮可以由二氧化氮和臭氧，在低温下反应生成：
+    \begin{center}
+        \ce{2NO2 + O3 ->T[$-10$\si{\degreeCelsius}] N2O5 + O2}\\[5mm]
+    \end{center}
+    五氧化二氮溶于水后会反应生成硝酸：
+    \begin{center}
+        \ce{N2O5 + H2O -> 2HNO3}\\[5mm]
+    \end{center}
+    五氧化二氮溶于水产生硝酸，因此五氧化二氮是硝酸的酸酐。
+
+\newpage
+
+\subsubsection{一氧化二氮}
+    一氧化二氮，无色稍有甜味的气体，密度$1.8$\si{g/L}，熔点$-91$\si{\degreeCelsius}，沸点$-88$\si{\degreeCelsius}。\\[3mm]
+    一氧化二氮可以通过极为小心的加热硝酸铵制取，有爆炸风险：
+    \begin{center}
+        \ce{NH4NO3 ->T[加热] N2O ^ + 2H2O}\\[6mm]
+    \end{center}
+    一氧化二氮也可以通过加热硫酸铵和硝酸钠制取，无爆炸风险：
+    \begin{center}
+        \ce{2NaNO3 + (NH4)2SO4 ->T[加热] 2N2O ^ + Na2SO4 + 4H2O}\\[6mm]
+    \end{center}
+    一氧化二氮由加热硝酸铵制取时需严格控制温度在$185-230$\si{\degreeCelsius}，否则会导致爆炸性分解。\\[3mm]
+    一氧化二氮俗称笑气，这是因为人吸入后会情不自禁的发笑，其同时还有一定麻醉作用。
 
 
 \end{document}
